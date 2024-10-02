@@ -1,0 +1,418 @@
+Abarth,124 spider,2016,Italy,32100,Convertible,Sports Cars,Factory,124,false,true,Petrol,I4,1368,Single Turbocharger,170,250,RWD,Manual,6,1060,232,6.8
+Abarth,131 Rally,1976,Italy,33600,Coupé,Sports Cars,Factory,131,true,true,Petrol,I4,1995,Naturally Aspirated,140,171,RWD,Manual,5,980,190,8.2
+Abarth,500 esseesse,2008,Italy,14600,City Car,Hot Hatches,Factory,500,false,true,Petrol,I4,1368,Single Turbocharger,160,230,FWD,Manual,5,1035,211,7.4
+Abarth,595 SS,1965,Italy,21000,City Car,Hot Hatches,Factory,500,true,true,Petrol,I2,594,Naturally Aspirated,32,44,RWD,Manual,4,570,124,24.7
+Abarth,695 biposto,2014,Italy,45000,City Car,Hot Hatches,Factory,500,false,true,Petrol,I4,1368,Single Turbocharger,190,250,FWD,Manual,5,997,230,5.9
+Abarth,Grande Punto,2007,Italy,27500,Compact,Hot Hatches,Factory,Punto,false,true,Petrol,I4,1368,Single Turbocharger,155,230,FWD,Manual,6,1185,206,8.2
+Abarth,Punto Supersport,2012,Italy,37600,Compact,Hot Hatches,Factory,Punto,false,true,Petrol,I4,1368,Single Turbocharger,180,270,FWD,Manual,6,1185,220,7.5
+AC Cars,2 Litres,1947,United Kingdom,12500,Executive,Saloons,Factory,2 Litres,true,true,Petrol,I6,1991,Naturally Aspirated,75,125,RWD,Manual,4,1295,136,21.8
+AC Cars,378 GT Zagato,2012,United Kingdom,154200,Coupé,Supercars,Factory,378 GTZ,false,true,Petrol,V8,6162,Naturally Aspirated,443,583,RWD,Manual,6,1465,300,3.9
+AC Cars,428 Coupé,1967,United Kingdom,135670,Coupé,Sports Cars,Factory,428,true,true,Petrol,V8,7014,Naturally Aspirated,345,626,RWD,Manual,4,1500,240,6.5
+AC Cars,3000 ME,1979,United Kingdom,61350,Coupé,Sports Cars,Factory,3000 ME,true,true,Petrol,V6,2994,Naturally Aspirated,140,260,RWD,Manual,5,1085,210,8.5
+AC Cars,Ace 2.9 AT,1992,United Kingdom,19200,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V6,2933,Naturally Aspirated,195,275,RWD,Automatic,4,1460,225,7.5
+AC Cars,Ace 2.9 MT,1992,United Kingdom,20100,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V6,2933,Naturally Aspirated,195,275,RWD,Manual,5,1450,225,7.2
+AC Cars,Ace 3.0 MT,1992,United Kingdom,21000,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V6,2986,Naturally Aspirated,223,271,RWD,Manual,5,1450,225,6.9
+AC Cars,Ace 4.9 AT,1993,United Kingdom,31000,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V8,4942,Naturally Aspirated,264,434,RWD,Automatic,4,1440,225,6.2
+AC Cars,Ace 4.9 AT,1994,United Kingdom,30500,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V8,4942,Naturally Aspirated,243,434,RWD,Automatic,4,1440,225,6.2
+AC Cars,Ace 5.7,1995,United Kingdom,32000,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V8,5745,Twin Turbocharger,345,300,RWD,Manual,6,1510,250,5.4
+AC Cars,Ace 4.6,1997,United Kingdom,29500,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V8,4601,Naturally Aspirated,325,427,RWD,Manual,5,1510,249,6.0
+AC Cars,Ace 4.6,1998,United Kingdom,36000,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V8,4601,Single Supercharger,355,434,RWD,Manual,5,1510,251,5.5
+AC Cars,Ace 3.5 Turbo,1999,United Kingdom,34500,Convertible,Sports Cars,Factory,Ace,true,true,Petrol,V8,3505,Twin Turbocharger,354,407,RWD,Manual,6,1510,250,5.8
+AC Cars,Aceca,1960,United Kingdom,88400,Coupé,Sports Cars,Factory,Ace,true,true,Petrol,I6,1991,Naturally Aspirated,106,165,RWD,Manual,4,1015,167,10.4
+AC Cars,Aceca 3.5 Turbo,1998,United Kingdom,33500,Coupé,Sports Cars,Factory,Ace,true,true,Petrol,V8,3506,Twin Turbocharger,354,407,RWD,Manual,6,1615,250,5.8
+AC Cars,Aceca 4.6,1998,United Kingdom,32000,Coupé,Sports Cars,Factory,Ace,true,true,Petrol,V8,4601,Naturally Aspirated,326,427,RWD,Manual,5,1615,250,6.4
+AC Cars,Cobra 260 (MkI),1962,United Kingdom,312250,Roadster,Sports Cars,Factory,Cobra,true,true,Petrol,V8,4261,Naturally Aspirated,260,365,RWD,Manual,4,990,233,5.7
+AC Cars,Cobra 427 (MkIII),1965,United Kingdom,345440,Roadster,Supercars,Factory,Cobra,true,true,Petrol,V8,6997,Naturally Aspirated,425,660,RWD,Manual,4,1080,260,3.9
+AC Cars,Cobra 289 Le Mans,1963,United Kingdom,657280,Coupé,Sarthe Legends,Factory,Cobra,true,true,Petrol,V8,4728,Naturally Aspirated,380,425,RWD,Manual,4,1030,298,4.1
+AC Cars,Cobra 289 Sport (MkIII),1966,United Kingdom,420000,Roadster,Sports Cars,Factory,Cobra,true,true,Petrol,V8,4728,Naturally Aspirated,271,370,RWD,Manual,4,1020,240,5.0
+AC Cars,Cobra (MkIV),1998,United Kingdom,82990,Roadster,Sports Cars,Factory,Cobra,true,true,Petrol,V8,4942,Single Supercharger,325,522,RWD,Manual,5,1160,240,5.7
+AC Cars,Cobra Carbon Road Series (MkIV),1999,United Kingdom,142000,Roadster,Sports Cars,Factory,Cobra,true,true,Petrol,V8,4942,Naturally Aspirated,228,406,RWD,Manual,5,1080,233,5.6
+AC Cars,Cobra Superblower (MkIV),1999,United Kingdom,164000,Roadster,Sports Cars,Factory,Cobra,true,true,Petrol,V8,4942,Single Supercharger,360,522,RWD,Manual,5,1210,250,4.4
+AC Cars,Cobra GT 6.2 (MkVI),2009,United Kingdom,135400,Roadster,Sports Cars,Factory,Cobra,false,true,Petrol,V8,6162,Single Supercharger,443,583,RWD,Manual,6,1050,278,3.7
+AC Cars,Cobra GT 7.0 (MkVI),2009,United Kingdom,154200,Roadster,Sports Cars,Factory,Cobra,false,true,Petrol,V8,7000,Single Supercharger,649,740,RWD,Manual,6,1095,289,3.2
+AC Cars,Cobra GTS (MkVI),2009,United Kingdom,223000,Coupé,Supercars,Factory,Cobra,false,true,Petrol,V8,6162,Single Supercharger,656,820,RWD,Manual,6,1080,305,3.3
+AC Cars,Cobra GTSR (MkVI),2014,United Kingdom,300000,Roadster,Supercars,Factory,Cobra,false,true,Petrol,V8,6162,Naturally Aspirated,791,1050,RWD,Manual,6,995,332,2.8
+Acura,CL 2.2 AT,1997,United States of America,5600,Coupé,Sunday Cruise,Factory,Acura CL,true,true,Petrol,I4,2156,Naturally Aspirated,147,199,FWD,Automatic,4,1390,209,8.6
+Acura,CL 2.2 MT,1997,United States of America,6600,Coupé,Sunday Cruise,Factory,Acura CL,true,true,Petrol,I4,2156,Naturally Aspirated,147,199,FWD,Manual,5,1390,209,8.6
+Acura,CL 3.0 V6,1997,United States of America,8000,Coupé,Sunday Cruise,Factory,Acura CL,true,true,Petrol,V6,2997,Naturally Aspirated,203,265,FWD,Automatic,4,1465,230,8.0
+Acura,CL 2.3 AT,1998,United States of America,5800,Coupé,Sunday Cruise,Factory,Acura CL,true,true,Petrol,I4,2254,Naturally Aspirated,152,207,FWD,Automatic,4,1390,220,8.2
+Acura,CL 2.3 MT,1998,United States of America,6800,Coupé,Sunday Cruise,Factory,Acura CL,true,true,Petrol,I4,2254,Naturally Aspirated,152,207,FWD,Manual,5,1390,220,8.2
+Acura,CL 3.2 AT,2000,United States of America,8400,Coupé,Sunday Cruise,Factory,Acura CL,false,true,Petrol,V6,3210,Naturally Aspirated,228,294,FWD,Automatic,5,1574,220,7.8
+Acura,CL 3.2 MT,2000,United States of America,9400,Coupé,Sunday Cruise,Factory,Acura CL,false,true,Petrol,V6,3210,Naturally Aspirated,228,294,FWD,Manual,6,1574,230,7.7
+Acura,CL Type S AT,2000,United States of America,11600,Coupé,Sports Cars,Factory,Acura CL,false,true,Petrol,V6,3210,Naturally Aspirated,264,315,FWD,Automatic,5,1595,240,6.6
+Acura,CL Type S MT,2000,United States of America,13000,Coupé,Sports Cars,Factory,Acura CL,false,true,Petrol,V6,3210,Naturally Aspirated,264,315,FWD,Manual,6,1595,240,6.6
+Acura,CSX AT,2005,United States of America,4430,Compact Sedan,Saloons,Factory,CSX,false,true,Petrol,I4,1998,Naturally Aspirated,157,188,FWD,Automatic,5,1343,220,8.2
+Acura,CSX MT,2005,United States of America,5600,Compact Sedan,Saloons,Factory,CSX,false,true,Petrol,I4,1998,Naturally Aspirated,157,188,FWD,Manual,5,1343,220,8.2
+Acura,EL AT,2000,United States of America,4200,Compact Sedan,Saloons,Factory,EL,false,true,Petrol,I4,1668,Naturally Aspirated,129,155,FWD,Automatic,4,1300,195,9.3
+Acura,EL MT,2000,United States of America,4200,Compact Sedan,Saloons,Factory,EL,false,true,Petrol,I4,1668,Naturally Aspirated,129,155,FWD,Manual,5,1300,195,9.3
+Acura,ILX 2.4 AT,2019,United States of America,31090,Mid-Size,Saloons,Factory,ILX,false,true,Petrol,I4,2354,Naturally Aspirated,204,231,FWD,Automatic,5,1351,220,6.3
+Acura,ILX 2.4 MT,2019,United States of America,31091,Mid-Size,Saloons,Factory,ILX,false,true,Petrol,I4,2354,Naturally Aspirated,204,231,FWD,Manual,6,1351,220,6.3
+Acura,Integra Coupé 1.8 AT,1993,United States of America,14000,Coupé,Sunday Cruise,Factory,Integra,true,true,Petrol,I4,1834,Naturally Aspirated,144,172,FWD,Automatic,4,1210,195,9.8
+Acura,Integra Coupé 1.8 MT,1993,United States of America,14000,Coupé,Sunday Cruise,Factory,Integra,true,true,Petrol,I4,1834,Naturally Aspirated,144,172,FWD,Manual,5,1210,195,9.8
+Acura,Integra Sedan 1.8 AT,1993,United States of America,14300,Mid-Size,Saloons,Factory,Integra,true,true,Petrol,I4,1834,Naturally Aspirated,144,172,FWD,Automatic,4,1240,195,9.9
+Acura,Integra Sedan 1.8 MT,1993,United States of America,14000,Mid-Size,Saloons,Factory,Integra,true,true,Petrol,I4,1834,Naturally Aspirated,144,172,FWD,Manual,5,1240,195,9.9
+Acura,Integra Coupé GS-R,1994,United States of America,17500,Coupé,Sports Cars,Factory,Integra,true,true,Petrol,I4,1797,Naturally Aspirated,172,174,FWD,Manual,5,1210,215,6.4
+Acura,Integra Coupé Type R,1994,United States of America,24000,Coupé,Sports Cars,Factory,Integra,true,true,Petrol,I4,1797,Naturally Aspirated,198,177,FWD,Manual,5,1198,218,6.2
+Acura,Integra Sedan GS-R,1994,United States of America,16900,Mid-Size,Super Saloons,Factory,Integra,true,true,Petrol,I4,1797,Naturally Aspirated,172,174,FWD,Manual,5,1240,215,6.5
+Acura,MDX 3.5 (YD1),2001,United States of America,7800,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,243,333,AWD,Automatic,5,1990,180,8.2
+Acura,MDX 3.5 (YD1),2003,United States of America,8000,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,264,339,AWD,Automatic,5,2005,190,8.1
+Acura,MDX 3.7 (YD2),2007,United States of America,11000,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3663,Naturally Aspirated,304,366,FWD,Automatic,6,2055,210,7.3
+Acura,MDX 3.7 AWD (YD2),2007,United States of America,12000,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3664,Naturally Aspirated,304,366,AWD,Automatic,6,2145,225,6.8
+Acura,MDX 3.5 (YD3),2014,United States of America,23000,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,294,362,FWD,Automatic,6,1826,205,7.3
+Acura,MDX 3.5 AWD (YD3),2014,United States of America,29900,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,294,362,AWD,Automatic,6,1944,230,6.8
+Acura,MDX 3.5 AWD SportShift (YD3),2017,United States of America,34000,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,300,365,AWD,Automatic,9,1944,235,6.8
+Acura,MDX 3.5 SportShift (YD3),2017,United States of America,32000,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,300,365,FWD,Automatic,9,1826,210,7.3
+Acura,MDX Sport Hybrid (YD3),2017,United States of America,49600,S.U.V.,Super S.U.V.,Factory,MDX,false,true,Plug-in Hybrid (Petrol),V6,3471,Naturally Aspirated,325,392,AWD,Automatic,7,2034,240,6.0
+Acura,MDX 3.5 i-VTEC 295 (YD4),2021,United States of America,49925,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,294,362,FWD,Automatic,10,1937,230,6.7
+Acura,MDX 3.5 i-VTEC 295 AWD (YD4),2021,United States of America,54500,S.U.V.,S.U.V.,Factory,MDX,false,true,Petrol,V6,3471,Naturally Aspirated,294,362,AWD,Automatic,10,1967,235,6.5
+Acura,MDX Type S (YD4),2021,United States of America,67895,S.U.V.,Super S.U.V.,Factory,MDX,false,true,Petrol,V6,2997,Single Turbocharger,360,480,AWD,Automatic,10,2151,250,5.5
+Acura,NSX (NA1),1991,United States of America,65965,Coupé,Supercars,Factory,NSX,true,true,Petrol,V6,2977,Naturally Aspirated,274,284,RWD,Manual,5,1365,270,5.6
+Acura,NSX Automatic (NA1),1991,United States of America,64965,Coupé,Supercars,Factory,NSX,true,true,Petrol,V6,2977,Naturally Aspirated,256,285,RWD,Automatic,4,1405,266,5.9
+Acura,NSX-T (NA1),1995,United States of America,78000,Targa,Supercars,Factory,NSX,true,true,Petrol,V6,2977,Naturally Aspirated,274,285,RWD,Manual,5,1425,265,5.8
+Acura,NSX-T Automatic (NA1),1995,United States of America,64000,Targa,Supercars,Factory,NSX,true,true,Petrol,V6,2977,Naturally Aspirated,256,285,RWD,Automatic,4,1455,265,6.0
+Acura,NSX (NA1),1997,United States of America,74500,Coupé,Supercars,Factory,NSX,true,true,Petrol,V6,3179,Naturally Aspirated,294,298,RWD,Manual,6,1445,270,5.5
+Acura,NSX-T (NA1),1997,United States of America,89800,Targa,Supercars,Factory,NSX,true,true,Petrol,V6,3179,Naturally Aspirated,294,298,RWD,Manual,6,1470,270,5.7
+Acura,NSX Alex Zanardi Edition (NA1),1999,United States of America,123675,Coupé,Supercars,Factory,NSX,true,true,Petrol,V6,3179,Naturally Aspirated,294,298,RWD,Manual,6,1445,270,5.5
+Acura,NSX-T (NA2),2001,United States of America,146500,Targa,Supercars,Factory,NSX,false,true,Petrol,V6,3179,Naturally Aspirated,294,304,RWD,Manual,6,1450,270,5.4
+Acura,NSX,2016,United States of America,140000,Coupé,Supercars,Factory,NSX,false,true,Full Hybrid (Petrol),V6,3493,Twin Turbocharger,581,646,AWD,Dual-Clutch,9,1725,307,3.0
+Acura,NSX Type S,2022,United States of America,230000,Coupé,Supercars,Factory,NSX,false,true,Full Hybrid (Petrol),V6,3493,Twin Turbocharger,608,667,AWD,Dual-Clutch,9,1705,310,2.9
+Acura,RDX 2.3,2006,United States of America,9400,S.U.V.,S.U.V.,Factory,RDX,false,true,Petrol,I4,2321,Single Turbocharger,243,352,FWD,Automatic,5,1779,219,7.4
+Acura,RDX 2.3 AWD,2006,United States of America,10200,S.U.V.,S.U.V.,Factory,RDX,false,true,Petrol,I4,2321,Single Turbocharger,243,352,AWD,Automatic,5,1820,219,6.5
+Acura,RDX 3.0,2013,United States of America,17300,S.U.V.,S.U.V.,Factory,RDX,false,true,Petrol,V6,3000,Naturally Aspirated,267,298,FWD,Manual,6,1700,215,7.2
+Acura,RDX 3.5 AWD,2013,United States of America,20000,S.U.V.,S.U.V.,Factory,RDX,false,true,Petrol,V6,3471,Naturally Aspirated,277,341,AWD,Automatic,6,1750,217,6.3
+Acura,RDX 3.5 AWD,2016,United States of America,26000,S.U.V.,S.U.V.,Factory,RDX,false,true,Petrol,V6,3471,Naturally Aspirated,283,342,AWD,Automatic,6,1770,217,6.3
+Acura,RDX AWD,2018,United States of America,40295,S.U.V.,S.U.V.,Factory,RDX,false,true,Petrol,I4,1996,Single Turbocharger,276,380,AWD,Automatic,10,1716,230,6.5
+Acura,RL (KA9),1996,United States of America,10350,Mid-Size,Saloons,Factory,RL,true,true,Petrol,V6,3474,Naturally Aspirated,213,304,FWD,Automatic,4,1660,215,8.5
+Acura,RL (KA9),2001,United States of America,11295,Mid-Size,Saloons,Factory,RL,false,true,Petrol,V6,3474,Naturally Aspirated,228,313,FWD,Automatic,4,1750,219,8.5
+Acura,RL 3.5 (KB1),2004,United States of America,14650,Mid-Size,Super Saloons,Factory,RL,false,true,Petrol,V6,3471,Naturally Aspirated,294,348,AWD,Automatic,5,1814,230,6.4
+Acura,RL 3.7 (KB2),2009,United States of America,16700,Mid-Size,Super Saloons,Factory,RL,false,true,Petrol,V6,3664,Naturally Aspirated,304,368,AWD,Automatic,5,1852,250,6.2
+Acura,RLX 3.5,2013,United States of America,33280,Executive,Super Saloons,Factory,RLX,false,true,Petrol,V6,3471,Naturally Aspirated,314,369,FWD,Automatic,6,1794,258,6.9
+Acura,RLX Sport Hybrid,2014,United States of America,45785,Executive,Super Saloons,Factory,RLX,false,true,Full Hybrid (Petrol),V6,3471,Naturally Aspirated,370,377,AWD,Dual-Clutch,7,1956,279,5.2
+Acura,RLX Sport Hybrid,2017,United States of America,52000,Executive,Super Saloons,Factory,RLX,false,true,Full Hybrid (Petrol),V6,3471,Naturally Aspirated,382,483,AWD,Dual-Clutch,7,1987,280,5.0
+Acura,RSX,2001,United States of America,7800,Coupé,Sports Cars,Factory,RSX,false,true,Petrol,I4,1998,Naturally Aspirated,162,191,FWD,Manual,5,1222,215,7.2
+Acura,RSX Type S,2002,United States of America,17880,Coupé,Sports Cars,Factory,RSX,false,true,Petrol,I4,1998,Naturally Aspirated,203,193,FWD,Manual,6,1260,233,6.7
+Acura,RSX Type S,2005,United States of America,19000,Coupé,Sports Cars,Factory,RSX,false,true,Petrol,I4,1998,Naturally Aspirated,213,194,FWD,Manual,6,1289,240,6.3
+Acura,SLX 3.2,1996,United States of America,4589,S.U.V.,Offroaders,Factory,SLX,true,true,Petrol,V6,3165,Naturally Aspirated,192,255,AWD,Manual,5,1880,180,10.4
+Acura,SLX 3.5,1998,United States of America,5788,S.U.V.,Offroaders,Factory,SLX,true,true,Petrol,V6,3494,Naturally Aspirated,218,312,AWD,Automatic,4,2093,200,9.6
+Acura,TL 2.5,1996,United States of America,2400,Executive,Saloons,Factory,TL,true,true,Petrol,I5,2451,Naturally Aspirated,178,230,FWD,Automatic,4,1475,195,7.9
+Acura,TL 3.2,1996,United States of America,2800,Executive,Saloons,Factory,TL,true,true,Petrol,V6,3206,Naturally Aspirated,203,285,FWD,Automatic,4,1570,200,7.4
+Acura,TL,2001,United States of America,3400,Executive,Saloons,Factory,TL,false,true,Petrol,V6,3210,Naturally Aspirated,228,293,FWD,Automatic,5,1584,209,7.2
+Acura,TL Type S,2001,United States of America,8000,Executive,Super Saloons,Factory,TL,false,true,Petrol,V6,3210,Naturally Aspirated,264,315,FWD,Automatic,5,1614,241,6.3
+Acura,TL 3.2,2004,United States of America,9255,Executive,Super Saloons,Factory,TL,false,true,Petrol,V6,3210,Naturally Aspirated,274,323,FWD,Manual,6,1580,250,5.7
+Acura,TL 3.2,2006,United States of America,9999,Executive,Super Saloons,Factory,TL,false,true,Petrol,V6,3210,Naturally Aspirated,262,316,FWD,Automatic,5,1643,240,6.2
+Acura,TL Type S,2007,United States of America,15400,Executive,Super Saloons,Factory,TL,false,true,Petrol,V6,3471,Naturally Aspirated,290,347,FWD,Automatic,5,1666,243,5.6
+Acura,TL 3.5,2009,United States of America,16795,Executive,Super Saloons,Factory,TL,false,true,Petrol,V6,3471,Naturally Aspirated,284,344,FWD,Automatic,6,1688,250,5.7
+Acura,TL 3.7,2009,United States of America,19995,Executive,Super Saloons,Factory,TL,false,true,Petrol,V6,3664,Naturally Aspirated,309,370,AWD,Manual,6,1655,255,5.5
+Acura,TL 3.7 AT,2009,United States of America,19995,Executive,Super Saloons,Factory,TL,false,true,Petrol,V6,3664,Naturally Aspirated,309,370,AWD,Automatic,5,1655,242,6.1
+Acura,TLX 2.4,2014,United States of America,15670,Executive,Saloons,Factory,TLX,false,true,Petrol,I4,2354,Naturally Aspirated,209,247,FWD,Dual-Clutch,8,1580,220,6.9
+Acura,TLX 3.5 AWD,2014,United States of America,28900,Executive,Saloons,Factory,TLX,false,true,Petrol,V6,3471,Naturally Aspirated,294,362,AWD,Automatic,9,1631,216,5.9
+Acura,TLX 3.5 FWD,2014,United States of America,27600,Executive,Saloons,Factory,TLX,false,true,Petrol,V6,3471,Naturally Aspirated,294,362,FWD,Automatic,9,1625,216,6.2
+Acura,TLX AWD,2021,United States of America,44560,Executive,Saloons,Factory,TLX,false,true,Petrol,I4,1996,Single Turbocharger,276,380,AWD,Automatic,10,1682,211,5.9
+Acura,TLX FWD,2021,United States of America,40525,Executive,Saloons,Factory,TLX,false,true,Petrol,I4,1996,Single Turbocharger,276,380,FWD,Automatic,10,1682,211,6.1
+Acura,TLX Type S,2022,United States of America,51995,Executive,Super Saloons,Factory,TLX,false,true,Petrol,V6,2997,Single Turbocharger,360,480,AWD,Automatic,10,1915,250,5.0
+Acura,TLX Type S PMC Edition,2022,United States of America,57344,Executive,Super Saloons,Factory,TLX,false,true,Petrol,V6,2997,Single Turbocharger,360,480,AWD,Automatic,10,1915,250,5.0
+Acura,TLX Type S,2024,United States of America,53435,Executive,Super Saloons,Factory,TLX,false,true,Petrol,V6,2997,Single Turbocharger,360,480,AWD,Automatic,10,1915,250,5.0
+Acura,TLX Type S PMC Edition,2024,United States of America,61712,Executive,Super Saloons,Factory,TLX,false,true,Petrol,V6,2997,Single Turbocharger,360,480,AWD,Automatic,10,1915,250,5.0
+Acura,TSX,2003,United States of America,8350,Executive,Saloons,Factory,TSX,false,true,Petrol,I4,2354,Naturally Aspirated,203,225,FWD,Manual,6,1465,214,7.2
+Acura,TSX,2006,United States of America,9800,Executive,Saloons,Factory,TSX,false,true,Petrol,I4,2354,Naturally Aspirated,208,222,FWD,Manual,6,1481,215,7.3
+Acura,TSX,2009,United States of America,12450,Executive,Saloons,Factory,TSX,false,true,Petrol,I4,2354,Naturally Aspirated,204,230,FWD,Manual,6,1550,216,7.1
+Acura,TSX V6,2010,United States of America,21650,Executive,Super Saloons,Factory,TSX,false,true,Petrol,V6,3471,Naturally Aspirated,284,344,FWD,Manual,6,1647,240,6.0
+Acura,ZDX,2010,United States of America,20498,S.U.V.,Super S.U.V.,Factory,ZDX,false,true,Petrol,V6,3664,Naturally Aspirated,304,366,AWD,Automatic,6,2020,230,6.7
+Adler,Diplomat,1934,Germany,43000,Saloon,Saloons,Factory,Diplomat,true,true,Petrol,I6,2916,Naturally Aspirated,60,97,RWD,Manual,4,1500,110,31.3
+Adler,Diplomat,1935,Germany,50300,Saloon,Saloons,Factory,Diplomat,true,true,Petrol,I6,2916,Naturally Aspirated,65,97,RWD,Manual,4,1598,115,30.9
+Adler,Trumpf Junior,1934,Germany,23000,Saloon,Saloons,Factory,Trumpf,true,true,Petrol,I4,995,Naturally Aspirated,25,42,FWD,Manual,4,1450,90,-1
+Alfa Romeo,145 1.4 (930),1994,Italy,2640,Compact,Hatchback,Factory,145,true,true,Petrol,F4,1351,Naturally Aspirated,90,115,FWD,Manual,5,1108,178,13.7
+Alfa Romeo,145 1.6 (930),1994,Italy,2890,Compact,Hatchback,Factory,145,true,true,Petrol,F4,1596,Naturally Aspirated,103,134,FWD,Manual,5,1147,185,11.0
+Alfa Romeo,145 1.7 16V (930),1994,Italy,3124,Compact,Hatchback,Factory,145,true,true,Petrol,F4,1712,Naturally Aspirated,129,148,FWD,Manual,5,1190,200,9.8
+Alfa Romeo,145 1.9 TD (930),1994,Italy,4230,Compact,Hatchback,Factory,145,true,true,Diesel,I4,1929,Single Turbocharger,90,186,FWD,Manual,5,1209,182,12.0
+Alfa Romeo,145 2.0 Quadrifoglio Verde (930),1995,Italy,10952,Compact,Hot Hatches,Factory,145,true,true,Petrol,I4,1970,Naturally Aspirated,150,186,FWD,Manual,5,1240,210,9.4
+Alfa Romeo,145 1.4 TS (930),1996,Italy,2780,Compact,Hatchback,Factory,145,true,true,Petrol,I4,1370,Naturally Aspirated,103,125,FWD,Manual,5,1135,186,12.6
+Alfa Romeo,145 1.6 TS 120 (930),1996,Italy,3000,Compact,Hatchback,Factory,145,true,true,Petrol,I4,1598,Naturally Aspirated,120,144,FWD,Manual,5,1205,192,10.2
+Alfa Romeo,145 1.8 TS 140 (930),1996,Italy,3612,Compact,Hatchback,Factory,145,true,true,Petrol,I4,1747,Naturally Aspirated,140,169,FWD,Manual,5,1135,205,9.2
+Alfa Romeo,145 1.8 TS 145 (930),1998,Italy,3634,Compact,Hatchback,Factory,145,true,true,Petrol,I4,1747,Naturally Aspirated,144,169,FWD,Manual,5,1195,207,9.1
+Alfa Romeo,145 2.0 TS (930),1998,Italy,11420,Compact,Hot Hatches,Factory,145,true,true,Petrol,I4,1970,Naturally Aspirated,155,187,FWD,Manual,5,1260,209,8.4
+Alfa Romeo,145 1.6 TS 110 (930),1999,Italy,2959,Compact,Hatchback,Factory,145,true,true,Petrol,I4,1598,Naturally Aspirated,112,144,FWD,Manual,5,1185,190,10.5
+Alfa Romeo,145 1.9 JTD 105 (930),1999,Italy,4150,Compact,Hatchback,Factory,145,true,true,Diesel,I4,1910,Single Turbocharger,105,255,FWD,Manual,5,1210,185,10.4
+Alfa Romeo,146 1.4 (930B),1995,Italy,3640,Compact Sedan,Saloons,Factory,146,true,true,Petrol,F4,1351,Naturally Aspirated,90,115,FWD,Manual,5,1175,180,13.7
+Alfa Romeo,146 1.6 (930B),1995,Italy,3890,Compact Sedan,Saloons,Factory,146,true,true,Petrol,F4,1596,Naturally Aspirated,103,135,FWD,Manual,5,1175,187,12.4
+Alfa Romeo,146 1.7 16V (930B),1995,Italy,4230,Compact Sedan,Saloons,Factory,146,true,true,Petrol,I4,1712,Naturally Aspirated,129,149,FWD,Manual,5,1225,201,12.5
+Alfa Romeo,146 1.9 TD (930B),1995,Italy,3650,Compact Sedan,Saloons,Factory,146,true,true,Diesel,I4,1929,Single Turbocharger,90,187,FWD,Manual,5,1245,179,12.0
+Alfa Romeo,146 2.0 TI 150 (930B),1996,Italy,9780,Compact Sedan,Sport Compacts,Factory,146,true,true,Petrol,I4,1970,Naturally Aspirated,150,187,FWD,Manual,5,1275,210,9.4
+Alfa Romeo,146 1.4 TS (930B),1997,Italy,3700,Compact Sedan,Saloons,Factory,146,true,true,Petrol,I4,1370,Naturally Aspirated,103,125,FWD,Manual,5,1205,186,12.6
+Alfa Romeo,146 1.8 TS 140 (930B),1997,Italy,4670,Compact Sedan,Saloons,Factory,146,true,true,Petrol,I4,1747,Naturally Aspirated,140,165,FWD,Manual,5,1282,210,10.0
+Alfa Romeo,146 1.6 TS 120 (930B),1997,Italy,4078,Compact Sedan,Saloons,Factory,146,true,true,Petrol,I4,1598,Naturally Aspirated,120,148,FWD,Manual,5,1227,190,10.9
+Alfa Romeo,146 2.0 TI 155 (930B),1998,Italy,10250,Compact Sedan,Sport Compacts,Factory,146,true,true,Petrol,I4,1970,Naturally Aspirated,155,188,FWD,Manual,5,1295,209,8.4
+Alfa Romeo,146 1.6 TS 110 (930B),1999,Italy,4035,Compact Sedan,Saloons,Factory,146,true,true,Petrol,I4,1598,Naturally Aspirated,112,144,FWD,Manual,5,1190,192,10.8
+Alfa Romeo,146 1.8 TS 145 (930B),1999,Italy,4675,Compact Sedan,Saloons,Factory,146,true,true,Petrol,I4,1747,Naturally Aspirated,144,169,FWD,Manual,5,1215,210,9.3
+Alfa Romeo,146 1.9 JTD 105 (930B),1999,Italy,3888,Compact Sedan,Saloons,Factory,146,true,true,Diesel,I4,1910,Single Turbocharger,105,256,FWD,Manual,5,1292,189,10.4
+Alfa Romeo,147 1.6 TS 105 (937),2000,Italy,6435,Compact,Hatchback,Factory,147,false,true,Petrol,I4,1598,Naturally Aspirated,105,140,FWD,Manual,5,1242,186,10.9
+Alfa Romeo,147 1.6 TS 120 (937),2000,Italy,6900,Compact,Hatchback,Factory,147,false,true,Petrol,I4,1598,Naturally Aspirated,120,146,FWD,Manual,5,1253,198,10.6
+Alfa Romeo,147 2.0 TS 150 (937),2000,Italy,10120,Compact,Hatchback,Factory,147,false,true,Petrol,I4,1970,Naturally Aspirated,150,181,FWD,Manual,5,1225,212,9.1
+Alfa Romeo,147 2.0 TS 150 Selespeed (937),2000,Italy,11280,Compact,Hatchback,Factory,147,false,true,Petrol,I4,1970,Naturally Aspirated,150,181,FWD,Robotized,5,1255,212,9.1
+Alfa Romeo,147 1.9 JTD 115 (937),2001,Italy,6885,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,115,275,FWD,Manual,5,1290,191,9.9
+Alfa Romeo,147 1.9 JTDM 140 (937),2002,Italy,8600,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,140,304,FWD,Manual,6,1290,209,9.6
+Alfa Romeo,147 GTA Cup (937),2002,Italy,98760,Compact,Cup Cars,Factory,147,false,false,Petrol,I4,1970,Naturally Aspirated,220,210,FWD,Sequential,6,1000,240,6.8
+Alfa Romeo,147 1.9 JTDM 100 (937),2003,Italy,5799,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,100,200,FWD,Manual,5,1250,183,12.1
+Alfa Romeo,147 GTA (937),2003,Italy,26990,Compact,Hot Hatches,Factory,147,false,true,Petrol,V6,3179,Naturally Aspirated,250,300,FWD,Manual,6,1401,246,6.8
+Alfa Romeo,147 GTA Selespeed (937),2003,Italy,21660,Compact,Hot Hatches,Factory,147,false,true,Petrol,V6,3179,Naturally Aspirated,250,300,FWD,Robotized,6,1401,246,6.8
+Alfa Romeo,147 1.9 JTDM 120 (937),2004,Italy,6740,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,120,280,FWD,Manual,5,1270,193,9.6
+Alfa Romeo,147 1.9 JTDM 125 (937),2004,Italy,7100,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,126,305,FWD,Manual,6,1270,200,9.4
+Alfa Romeo,147 1.9 JTDM 150 (937),2004,Italy,10000,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,150,305,FWD,Manual,6,1346,208,8.8
+Alfa Romeo,147 1.9 JTDM 170 Ducati Corse (937),2004,Italy,14255,Compact,Hot Hatches,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,170,330,FWD,Manual,6,1310,215,8.0
+Alfa Romeo,147 1.6 TS 105 Sport (937),2007,Italy,7800,Compact,Hatchback,Factory,147,false,true,Petrol,I4,1598,Naturally Aspirated,105,140,FWD,Manual,5,1242,186,10.9
+Alfa Romeo,147 1.9 JTDM 120 Sport (937),2007,Italy,7125,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,120,280,FWD,Manual,5,1270,193,9.6
+Alfa Romeo,147 1.9 JTDM 150 Sport (937),2007,Italy,11220,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,150,305,FWD,Manual,6,1346,208,8.8
+Alfa Romeo,147 1.9 JTDM 150 CNC Costume National (937),2008,Italy,10430,Compact,Hatchback,Factory,147,false,true,Diesel,I4,1910,Single Turbocharger,150,305,FWD,Manual,6,1346,208,8.8
+Alfa Romeo,15 HP,1911,Italy,56000,Mid-Size,Saloons,Factory,15 HP,true,true,Petrol,I4,2413,Naturally Aspirated,24,44,RWD,Manual,3,920,105,95.0
+Alfa Romeo,155 1.8 TS 130 (167),1992,Italy,4670,Mid-Size,Saloons,Factory,155,true,true,Petrol,I4,1773,Naturally Aspirated,129,165,FWD,Manual,5,1205,200,10.3
+Alfa Romeo,155 2.0 TS 145 (167),1992,Italy,5170,Mid-Size,Saloons,Factory,155,true,true,Petrol,I4,1995,Naturally Aspirated,143,186,FWD,Manual,5,1300,205,9.7
+Alfa Romeo,155 GTA Superturismo (167),1992,Italy,278000,Mid-Size,Super Tourers,Factory,155,true,false,Petrol,I4,1995,Single Turbocharger,420,500,FWD,Manual,6,1125,280,4.6
+Alfa Romeo,155 Q4 (167),1992,Italy,31400,Mid-Size,Super Saloons,Factory,155,true,true,Petrol,I4,1995,Single Turbocharger,190,297,AWD,Manual,5,1495,223,7.0
+Alfa Romeo,155 V6 (167),1992,Italy,8900,Mid-Size,Saloons,Factory,155,true,true,Petrol,V6,2492,Naturally Aspirated,166,216,FWD,Manual,5,1370,211,9.4
+Alfa Romeo,155 TI.Z (167),1993,Italy,124000,Mid-Size,Super Saloons,Factory,155,true,true,Petrol,I4,1995,Single Turbocharger,230,344,RWD,Manual,5,1150,232,7.0
+Alfa Romeo,155 V6 TI (167),1993,Italy,575880,Mid-Size,Super Tourers,Factory,155,true,false,Petrol,V6,2498,Naturally Aspirated,420,295,AWD,Sequential,6,1010,280,3.9
+Alfa Romeo,155 1.7 TS 115 (167),1994,Italy,3886,Mid-Size,Saloons,Factory,155,true,true,Petrol,I4,1749,Naturally Aspirated,115,147,FWD,Manual,5,1205,193,11.6
+Alfa Romeo,155 1.9 TD (167),1994,Italy,4120,Mid-Size,Saloons,Factory,155,true,true,Diesel,I4 ,1929,Single Turbocharger,92,191,FWD,Manual,5,1250,187,12.8
+Alfa Romeo,155 2.5 TD (167),1994,Italy,4560,Mid-Size,Saloons,Factory,155,true,true,Diesel,I4,2500,Single Turbocharger,125,295,FWD,Manual,5,1435,198,11.0
+Alfa Romeo,155 1.6 TS 120 (167),1996,Italy,3994,Mid-Size,Saloons,Factory,155,true,true,Petrol,I4,1598,Naturally Aspirated,120,144,FWD,Manual,5,1207,195,11.4
+Alfa Romeo,155 1.8 TS 140 (167),1996,Italy,4890,Mid-Size,Saloons,Factory,155,true,true,Petrol,I4,1773,Naturally Aspirated,140,165,FWD,Manual,5,1304,197,10.0
+Alfa Romeo,155 2.0 TS 150 (167),1996,Italy,5240,Mid-Size,Saloons,Factory,155,true,true,Petrol,I4,1995,Naturally Aspirated,150,186,FWD,Manual,5,1265,210,9.0
+Alfa Romeo,156 1.6 TS 110 (932),1998,Italy,3870,Mid-Size,Saloons,Factory,156,true,true,Petrol,I4,1598,Naturally Aspirated,110,146,FWD,Manual,5,1230,193,11.0
+Alfa Romeo,156 1.6 TS 120 (932),1998,Italy,3990,Mid-Size,Saloons,Factory,156,true,true,Petrol,I4,1598,Naturally Aspirated,120,146,FWD,Manual,5,1290,199,10.5
+Alfa Romeo,156 1.8 TS 145 (932),1998,Italy,4610,Mid-Size,Saloons,Factory,156,true,true,Petrol,I4,1747,Naturally Aspirated,144,168,FWD,Manual,5,1230,208,8.9
+Alfa Romeo,156 2.0 TS 155 (932),1998,Italy,5670,Mid-Size,Saloons,Factory,156,true,true,Petrol,I4,1970,Naturally Aspirated,155,189,FWD,Manual,5,1302,216,8.5
+Alfa Romeo,156 2.5 V6 (932),1998,Italy,5450,Mid-Size,Saloons,Factory,156,true,true,Petrol,V6,2492,Naturally Aspirated,190,222,FWD,Manual,6,1320,234,7.3
+Alfa Romeo,156 2.5 V6 Automatic (932),1998,Italy,5600,Mid-Size,Saloons,Factory,156,true,true,Petrol,V6,2492,Naturally Aspirated,190,222,FWD,Automatic,4,1350,232,7.4
+Alfa Romeo,156 D2 (932),1998,Italy,245610,Mid-Size,Super Tourers,Factory,156,true,false,Petrol,I4,1998,Naturally Aspirated,310,321,FWD,Sequential,6,975,265,4.9
+Alfa Romeo,156 1.9 JTD 105 (932),1999,Italy,3670,Mid-Size,Saloons,Factory,156,true,true,Diesel,I4,1910,Single Turbocharger,105,256,FWD,Manual,5,1332,188,11.4
+Alfa Romeo,156 1.9 JTD 110 (932),1999,Italy,3875,Mid-Size,Saloons,Factory,156,true,true,Diesel,I4,1910,Single Turbocharger,110,275,FWD,Manual,5,1332,182,11.0
+Alfa Romeo,156 2.4 JTD 135 (932),1999,Italy,4570,Mid-Size,Saloons,Factory,156,true,true,Diesel,I5,2387,Single Turbocharger,136,304,FWD,Manual,5,1393,204,9.3
+Alfa Romeo,156 Sportwagon 1.6 TS 110 (932),2000,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1598,Naturally Aspirated,110,146,FWD,Manual,5,1280,193,11.0
+Alfa Romeo,156 Sportwagon 1.6 TS 120 (932),2000,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1598,Naturally Aspirated,120,144,FWD,Manual,5,1280,200,11.0
+Alfa Romeo,156 Sportwagon 1.8 TS 140 (932),2000,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1747,Naturally Aspirated,144,169,FWD,Manual,5,1280,210,9.6
+Alfa Romeo,156 Sportwagon 1.9 JTD 105 (932),2000,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,105,255,FWD,Manual,5,1320,188,10.9
+Alfa Romeo,156 Sportwagon 2.0 TS 155 (932),2000,Italy,4300,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1970,Naturally Aspirated,155,187,FWD,Manual,5,1300,215,8.8
+Alfa Romeo,156 Sportwagon 2.4 JTD 135 (932),2000,Italy,4001,Mid-Size,Saloons,Factory,156,false,true,Diesel,I5,2387,Single Turbocharger,136,305,FWD,Manual,5,1395,201,9.9
+Alfa Romeo,156 Sportwagon 2.5 V6 (932),2000,Italy,12300,Mid-Size,Saloons,Factory,156,false,true,Petrol,V6,2492,Naturally Aspirated,190,222,FWD,Manual,6,1370,230,7.4
+Alfa Romeo,156 1.8 TS 140 (932),2001,Italy,4560,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1747,Naturally Aspirated,140,163,FWD,Manual,5,1250,208,9.4
+Alfa Romeo,156 1.9 JTD 115 (932),2001,Italy,3878,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,115,275,FWD,Manual,5,1305,191,10.3
+Alfa Romeo,156 2.4 JTD 140 (932),2001,Italy,4575,Mid-Size,Saloons,Factory,156,false,true,Diesel,I5,2387,Single Turbocharger,140,304,FWD,Manual,5,1390,207,9.3
+Alfa Romeo,156 Sportwagon 1.8 TS 145 (932),2001,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1747,Naturally Aspirated,140,163,FWD,Manual,5,1315,208,9.7
+Alfa Romeo,156 Sportwagon 1.9 JTD 110 (932),2001,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,110,255,FWD,Manual,5,1320,190,10.7
+Alfa Romeo,156 Sportwagon 1.9 JTD 115 (932),2001,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,115,275,FWD,Manual,5,1320,190,10.3
+Alfa Romeo,156 Sportwagon 2.0 TS 150 (932),2001,Italy,4276,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1970,Naturally Aspirated,150,187,FWD,Manual,5,1300,215,9.0
+Alfa Romeo,156 Sportwagon 2.4 JTD 140 (932),2001,Italy,4050,Mid-Size,Saloons,Factory,156,false,true,Diesel,I5,2387,Single Turbocharger,140,305,FWD,Manual,5,1400,205,9.8
+Alfa Romeo,156 2.4 JTD 150 (932),2002,Italy,4890,Mid-Size,Saloons,Factory,156,false,true,Diesel,I5,2387,Single Turbocharger,150,306,FWD,Manual,5,1419,215,9.2
+Alfa Romeo,156 GTA (932),2002,Italy,24560,Mid-Size,Super Saloons,Factory,156,false,true,Petrol,V6,3179,Naturally Aspirated,250,300,FWD,Manual,6,1445,250,6.7
+Alfa Romeo,156 GTA Selespeed (932),2002,Italy,19990,Mid-Size,Super Saloons,Factory,156,false,true,Petrol,V6,3179,Naturally Aspirated,250,300,FWD,Robotized,6,1450,249,6.8
+Alfa Romeo,156 Sportwagon 1.9 JTDM 140 (932),2002,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,140,305,FWD,Manual,6,1310,209,9.7
+Alfa Romeo,156 Sportwagon 2.0 JTS 165 (932),2002,Italy,5120,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1970,Naturally Aspirated,165,206,FWD,Manual,5,1335,220,8.2
+Alfa Romeo,156 Sportwagon 2.4 JTD 140 (932),2002,Italy,4100,Mid-Size,Saloons,Factory,156,false,true,Diesel,I5,2387,Single Turbocharger,150,305,FWD,Manual,5,1435,212,9.4
+Alfa Romeo,156 Sportwagon GTA (932),2002,Italy,20168,Mid-Size,Super Saloons,Factory,156,false,true,Petrol,V6,3179,Naturally Aspirated,250,300,FWD,Manual,6,1460,250,6.2
+Alfa Romeo,156 1.9 JTDM 140 (932),2003,Italy,5125,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,140,305,FWD,Manual,6,1305,201,10.0
+Alfa Romeo,156 2.0 JTS 165 (932),2003,Italy,5740,Mid-Size,Saloons,Factory,156,false,true,Petrol,I4,1970,Naturally Aspirated,165,207,FWD,Manual,5,1285,218,8.6
+Alfa Romeo,156 2.4 JTDM 175 (932),2003,Italy,5100,Mid-Size,Saloons,Factory,156,false,true,Diesel,I5,2387,Single Turbocharger,174,386,FWD,Manual,6,1360,221,8.7
+Alfa Romeo,156 Sportwagon 2.4 JTDM 175 (932),2003,Italy,4200,Mid-Size,Saloons,Factory,156,false,true,Diesel,I5,2387,Single Turbocharger,174,385,FWD,Manual,6,1435,225,8.6
+Alfa Romeo,156 1.9 JTDM 125 (932),2004,Italy,4340,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,126,305,FWD,Manual,6,1305,203,9.7
+Alfa Romeo,156 1.9 JTDM 150 (932),2004,Italy,5238,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,150,305,FWD,Manual,6,1305,212,9.3
+Alfa Romeo,156 Crosswagon 1.9 JTDM 150 (932),2004,Italy,7600,Mid-Size,Crossovers,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,150,304,AWD,Manual,6,1440,210,8.9
+Alfa Romeo,156 Sportwagon 1.9 JTDM 125 (932),2004,Italy,4670,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,126,305,FWD,Manual,6,1305,203,10.0
+Alfa Romeo,156 Sportwagon 1.9 JTDM 150 (932),2004,Italy,4812,Mid-Size,Saloons,Factory,156,false,true,Diesel,I4,1910,Single Turbocharger,150,305,FWD,Manual,6,1410,200,10.2
+Alfa Romeo,156 WTCC (932),2004,Italy,230000,Mid-Size,Super Tourers,Factory,156,false,false,Petrol,I4,1998,Naturally Aspirated,275,260,FWD,Sequential,6,1140,260,5.1
+Alfa Romeo,156 TRV6 (932),2005,Italy,410000,Mid-Size,Super Tourers,Factory,156,false,false,Petrol,V6,3000,Naturally Aspirated,350,375,FWD,Manual,5,1300,265,4.9
+Alfa Romeo,"158 ""Alfetta""",1938,Italy,9800000,Monoposto,Formula Cars,Factory,158/159,true,false,Petrol,I8,1979,Single Supercharger,195,243,RWD,Manual,4,620,313,4.8
+Alfa Romeo,159 1.9 JTDM 120 (939A),2005,Italy,3125,Mid-Size,Saloons,Factory,159,false,true,Diesel,I4,1910,Single Turbocharger,120,281,FWD,Manual,6,1480,193,10.7
+Alfa Romeo,159 1.9 JTDM 150 Limited Edition (939A),2005,Italy,5900,Mid-Size,Saloons,Factory,159,false,true,Diesel,I4,1910,Single Turbocharger,150,320,FWD,Manual,6,1490,212,9.2
+Alfa Romeo,159 1.9 JTDM 150 (939A),2005,Italy,5500,Mid-Size,Saloons,Factory,159,false,true,Diesel,I4,1910,Single Turbocharger,150,320,FWD,Manual,6,1490,212,9.2
+Alfa Romeo,"159 1.9 JTDM 150 Automatic ""Limited Edition"" (939A)",2005,Italy,6300,Mid-Size,Saloons,Factory,159,false,true,Diesel,I4,1910,Single Turbocharger,150,320,FWD,Automatic,6,1510,210,9.4
+Alfa Romeo,159 1.9 JTDM 150 Automatic (939A),2005,Italy,5975,Mid-Size,Saloons,Factory,159,false,true,Diesel,I4,1910,Single Turbocharger,150,320,FWD,Automatic,6,1510,210,9.4
+Alfa Romeo,159 1.9 JTS 160 (939A),2005,Italy,6700,Mid-Size,Saloons,Factory,159,false,true,Petrol,I4,1859,Naturally Aspirated,160,190,FWD,Manual,6,1480,212,9.7
+Alfa Romeo,159 2.2 JTS 185 (939A),2005,Italy,7800,Mid-Size,Saloons,Factory,159,false,true,Petrol,I4,2198,Naturally Aspirated,184,230,FWD,Manual,6,1490,222,8.8
+Alfa Romeo,159 2.4 JTDM 200 (939A),2005,Italy,10400,Mid-Size,Saloons,Factory,159,false,true,Diesel,I5,2387,Single Turbocharger,200,400,FWD,Manual,6,1530,228,8.3
+Alfa Romeo,159 2.4 JTDM 200 Q-Tronic (939A),2005,Italy,11359,Mid-Size,Saloons,Factory,159,false,true,Diesel,I5,2387,Single Turbocharger,200,400,FWD,Automatic,6,1605,227,9.4
+Alfa Romeo,159 3.2 JTS 260 (932A),2005,Italy,15670,Mid-Size,Super Saloons,Factory,159,false,true,Petrol,V6,3195,Naturally Aspirated,260,322,FWD,Manual,6,1630,250,7.2
+Alfa Romeo,159 3.2 JTS 260 Q4 (932A),2005,Italy,17900,Mid-Size,Super Saloons,Factory,159,false,true,Petrol,V6,3195,Naturally Aspirated,260,322,AWD,Manual,6,1740,249,6.9
+Alfa Romeo,159 1.8 MPI 140 (939A),2006,Italy,4100,Mid-Size,Saloons,Factory,159,false,true,Petrol,I4,1796,Naturally Aspirated,140,175,FWD,Manual,5,1510,195,10.2
+Alfa Romeo,159 2.4 JTDM 210 (939A),2007,Italy,12100,Mid-Size,Saloons,Factory,159,false,true,Diesel,I5,2387,Single Turbocharger,209,410,FWD,Manual,6,1530,230,8.1
+Alfa Romeo,159 2.4 JTDM 210 Q4 (939A),2007,Italy,12225,Mid-Size,Saloons,Factory,159,false,true,Diesel,I5,2387,Single Turbocharger,209,410,AWD,Manual,6,1585,230,7.9
+Alfa Romeo,159 1750 TBI 200 (939A),2009,Italy,12100,Mid-Size,Super Saloons,Factory,159,false,true,Petrol,I4,1742,Single Turbocharger,200,320,FWD,Manual,6,1430,235,7.7
+Alfa Romeo,159 2.0 JTDM 170 (939A),2009,Italy,6200,Mid-Size,Saloons,Factory,159,false,true,Diesel,I4,1956,Single Turbocharger,170,360,FWD,Manual,6,1490,218,8.8
+Alfa Romeo,159 2.0 JTDM 135 (939A),2010,Italy,3200,Mid-Size,Saloons,Factory,159,false,true,Diesel,I4,1956,Single Turbocharger,136,350,FWD,Manual,6,1490,202,9.9
+Alpine,A110 1600S,1970,France,100500,Coupé,Sports Cars,Factory,A110,true,true,Petrol,I4,1565,Naturally Aspirated,125,144,RWD,Manual,5,685,204,6.3
+Alpine,A110,2018,France,54200,Coupé,Sports Cars,Factory,A110,false,true,Petrol,I4,1798,Single Turbocharger,252,320,RWD,Dual-Clutch,7,1150,255,4.5
+Alpine,A110 S,2021,France,70850,Coupé,Sports Cars,Factory,A110,false,true,Petrol,I4,1798,Single Turbocharger,300,340,RWD,Dual-Clutch,7,1109,275,4.2
+Alpine,A110 R,2022,France,105000,Coupé,Sports Cars,Factory,A110,false,true,Petrol,I4,1798,Single Turbocharger,300,340,RWD,Dual-Clutch,7,1082,285,3.9
+Alpine,A610 Turbo,1991,France,43000,Coupé,Sports Cars,Factory,A610,true,true,Petrol,V6,2975,Single Turbocharger,250,350,RWD,Manual,5,1415,268,6.7
+Alpine,GTA V6 Turbo Le Mans,1990,France,42500,Coupé,Sports Cars,Factory,GTA,true,true,Petrol,V6,2458,Single Turbocharger,185,292,RWD,Manual,5,1235,240,6.7
+Artega,GT ,2008,Germany,61650,Coupé,Sports Cars,Factory,Artega GT,false,true,Petrol,V6,3597,Naturally Aspirated,300,350,RWD,Dual-Clutch,6,1285,273,4.8
+Ascari,A10,2006,United Kingdom,1344000,Coupé,Hypercars,Factory,A10,false,true,Petrol,V8,4941,Naturally Aspirated,625,560,RWD,Sequential,6,1280,346,2.8
+Ascari,KZ1-R LM,2008,United Kingdom,433000,Coupé,Supercars,Factory,KZ1,false,true,Petrol,V8,5000,Naturally Aspirated,520,540,RWD,Manual,6,1350,322,3.6
+BMW,440i xDrive Coupé (F32),2016,Germany,41390,Coupé,Sports Cars,Factory,4 Series,false,true,Petrol,I6,2998,Single Turbocharger,326,450,AWD,Dual-Clutch,8,1615,250,5.2
+BMW,507,1956,Germany,2150000,Convertible,Sports Cars,Factory,507,true,true,Petrol,V8,3168,Naturally Aspirated,150,222,RWD,Manual,4,1330,190,11
+BMW,M760Li xDrive (G12),2019,Germany,119990,Executive,Super Saloons,Factory,7 Series,false,true,Petrol,V12,6592,Twin Turbocharger,585,850,AWD,Automatic,8,2295,250,3.8
+Bugatti,Type 57SC Atlantic,1936,France,23400000,Coupé,Sports Cars,Factory,Type 57 ,true,true,Petrol,I8,3257,Single Supercharger,200,295,RWD,Manual,4,950,200,10
+Bugatti,Veyron 16.4,2005,France,1450000,Coupé,Hypercars,Factory,Veyron,false,true,Petrol,W16,7993,Quadruple Turbocharger,1001,1254,AWD,Dual-Clutch,7,1888,407,2.5
+Bugatti,Veyron 16.4 SuperSport,2011,France,2750000,Coupé,Hypercars,Factory,Veyron,false,true,Petrol,W16,7993,Quadruple Turbocharger,1200,1500,AWD,Dual-Clutch,7,1838,420,2.5
+Bugatti,Veyron 16.4 SuperSport World Record Edition,2011,France,3450000,Coupé,Hypercars,Factory,Veyron,false,true,Petrol,W16,7993,Quadruple Turbocharger,1200,1500,AWD,Dual-Clutch,7,1838,431,2.5
+Callaway,Sledgehammer (C4),1988,United States of America,500000,Coupé,Hypercars,Tuned,Corvette,false,true,Petrol,V8,5733,Twin Turbocharger,880,1047,RWD,Manual,6,1589,409,3.9
+Chevrolet,Camaro Z/28,2014,United States of America,95000,Coupé,Sports Cars,Factory,Camaro,false,true,Petrol,V8,7008,Naturally Aspirated,512,637,RWD,Manual,6,1752,275,4.1
+Chevrolet,Impala SS,2006,United States of America,6499,Mid-Size,Super Saloons,Factory,Impala,false,true,Petrol,V8,5322,Naturally Aspirated,307,438,RWD,Automatic,4,1684,250,5.8
+Chevrolet,Impala LTZ 3.6 V6,2014,United States of America,11713,Executive,Super Saloons,Factory,Impala,false,true,Petrol,V6,3600,Naturally Aspirated,305,358,FWD,Automatic,6,1717,251,6.4
+Chevrolet,SS,2013,United States of America,37713,Executive,Super Saloons,Factory,SS,false,true,Petrol,V8,6162,Naturally Aspirated,415,563,RWD,Automatic,6,1803,262,4.8
+Chevrolet,SS,2015,United States of America,44849,Executive,Super Saloons,Factory,SS,false,true,Petrol,V8,6162,Naturally Aspirated,415,563,RWD,Automatic,6,1803,262,4.8
+EV Electra,Capital ES,2025,Canada,148000,Executive,Super Saloons,Factory,Capital ES,false,true,Electric,4 Motors,0,,409,540,AWD,Automatic,1,2200,250,4
+EV Electra,Emily GT,2025,Canada,175000,Executive,Super Saloons,Factory,Emily GT,false,true,Electric,4 Motors,0,,644,1150,AWD,Automatic,1,2375,250,3.2
+EV Electra,Rise,2025,Canada,99000,Coupé,Sports Cars,Factory,Rise,false,true,Electric,1 Motor,0,,204,360,RWD,Automatic,1,1300,250,5
+Ferrari,166 MM Barchetta,1948,Italy,3080000,Roadster,Sarthe Legends,Factory,166,true,true,Petrol,V12,1995,Naturally Aspirated,142,159,RWD,Manual,5,650,195,9.3
+Ferrari,208 GTB Turbo,1986,Italy,124550,Coupé,Sports Cars,Factory,208,true,true,Petrol,V8,1991,Single Turbocharger,254,329,RWD,Manual,5,1355,253,6.4
+Ferrari,250 GT California LWB,1957,Italy,2032500,Roadster,Sports Cars,Factory,250,true,true,Petrol,V12,2953,Naturally Aspirated,240,265,RWD,Manual,4,1050,252,6.5
+Ferrari,250 GT Berlinetta Lusso,1962,Italy,2018365,Coupé,Sports Cars,Factory,250,true,true,Petrol,V12,2953,Naturally Aspirated,255,275,RWD,Manual,4,1310,240,8.0
+Ferrari,"250 GT ""Breadvan"" SWB",1962,Italy,30000000,Coupé,Sarthe Legends,Factory,250,true,true,Petrol,V12,2953,Naturally Aspirated,292,357,RWD,Manual,4,935,278,5.7
+Ferrari,275 GTB/4,1966,Italy,4037250,Coupé,Sports Cars,Factory,275,true,true,Petrol,V12,3285,Naturally Aspirated,300,295,RWD,Manual,5,1300,242,6.7
+Ferrari,288 GTO,1985,Italy,4265828,Coupé,Supercars,Factory,288,true,true,Petrol,V8,2855,Twin Turbocharger,400,496,RWD,Manual,5,1325,305,4.9
+Ferrari,288 GTO Evoluzione,1985,Italy,4400000,Coupé,Track Weapons,Factory,288,true,false,Petrol,V8,2855,Twin Turbocharger,650,667,RWD,Manual,5,940,370,4.0
+Ferrari,308 GT4,1976,Italy,56300,Coupé,Sports Cars,Factory,Ferrari 308,true,true,Petrol,V8,2927,Naturally Aspirated,255,284,RWD,Manual,5,1400,250,6.4
+Ferrari,308 GTBi,1980,Italy,89000,Coupé,Sports Cars,Factory,Ferrari 308,true,true,Petrol,V8,2927,Naturally Aspirated,214,244,RWD,Manual,5,1355,232,7.8
+Ferrari,328 GTB,1985,Italy,100000,Coupé,Sports Cars,Factory,Ferrari 328,true,true,Petrol,V8,3185,Naturally Aspirated,270,305,RWD,Manual,5,1400,260,7.0
+Ferrari,330 America,1963,Italy,332400,Coupé,Sports Cars,Factory,Ferrari 330,true,true,Petrol,V12,3967,Naturally Aspirated,300,326,RWD,Manual,5,1480,230,7.5
+Ferrari,400i,1979,Italy,79900,Coupé,Sports Cars,Factory,Ferrari 400,true,true,Petrol,V12,4823,Naturally Aspirated,310,392,RWD,Manual,5,1950,240,8.0
+Ferrari,410 Superfast,1957,Italy,4365780,Coupé,Sports Cars,Factory,Ferrari 410,true,true,Petrol,V12,4962,Naturally Aspirated,346,367,RWD,Manual,4,1200,256,7.4
+Ferrari,512 BBLM,1979,Italy,2200000,Coupé,GT Legends,Factory,Ferrari 512,true,false,Petrol,F12,4942,Naturally Aspirated,500,451,RWD,Manual,5,1400,315,4.9
+Ferrari,512 BB,1981,Italy,317155,Coupé,Supercars,Factory,Ferrari 512,true,true,Petrol,F12,4942,Naturally Aspirated,340,451,RWD,Manual,5,1580,280,6.3
+Ferrari,512 TR,1992,Italy,249000,Coupé,Supercars,Factory,Ferrari 512,true,true,Petrol,F12,4942,Naturally Aspirated,428,491,RWD,Manual,5,1658,304,5.0
+Ferrari,512 M,1994,Italy,250000,Coupé,Supercars,Factory,Ferrari 512,true,true,Petrol,F12,4942,Naturally Aspirated,440,501,RWD,Manual,5,1660,305,5.0
+Ferrari,F430 Coupé,2004,Italy,143550,Coupé,Supercars,Factory,F430,false,true,Petrol,V8,4308,Naturally Aspirated,490,465,RWD,Manual,6,1545,315,4.4
+Ferrari,SF90 Stradale,2019,Italy,443513,Coupé,Supercars,Factory,SF90,false,true,Plug-in Hybrid (Petrol),V8,3990,Twin Turbocharger,1000,800,AWD,Robotized,8,1570,350,2.5
+Ferrari,SF90 XX Stradale,2023,Italy,770000,Coupé,Hypercars,Factory,SF90,false,true,Plug-in Hybrid (Petrol),V8,3990,Twin Turbocharger,1030,820,AWD,Robotized,8,1650,340,2.3
+Ford,Galaxy 2.0 Ecoboost 240,2015,United States of America,23900,Large MPV,Sport MPVs,Factory,Galaxy,false,true,Petrol,I4,1999,Single Turbocharger,240,345,FWD,Manual,6,1733,222,8.6
+Ford,GT,2004,United States of America,370000,Coupé,Supercars,Factory,GT,false,true,Petrol,V8,5409,Single Supercharger,550,774,RWD,Manual,6,1530,330,3.4
+Ford,Mustang Bullitt (S550),2019,United States of America,57625,Coupé,Sports Cars,Factory,Mustang,false,true,Petrol,V8,5038,Naturally Aspirated,487,570,RWD,Manual,6,1681,262,4.9
+Ford,Mustang Mach-E GT,2020,United States of America,87200,S.U.V.,Super S.U.V.,Factory,Mustang,false,true,Electric,2 Motors,0,,487,830,AWD,Automatic,1,2273,200,3.7
+Ford,Mustang Mach-E GT Performance Edition,2022,United States of America,99880,S.U.V.,Super S.U.V.,Factory,Mustang,false,true,Electric,2 Motors,0,,487,860,AWD,Automatic,1,2273,230,3.5
+Ford,Mustang Dark Horse (S650),2023,United States of America,59435,Coupé,Sports Cars,Factory,Mustang,false,true,Petrol,V8,5038,Naturally Aspirated,500,567,RWD,Manual,6,1791,267,4.7
+Ford,RS 200 Evolution,1986,United States of America,632812,Coupé,Supercars,Factory,RS 200,false,true,Petrol,I4,2137,Single Turbocharger,600,650,AWD,Manual,5,1180,272,3.0
+Genovation,GXE,2017,United States of America,245680,Coupé,Hypercars,Factory,GXE,false,true,Electric,2 Motors,0,,800,948,RWD,Manual,7,1685,354,2.9
+Grassi,044S,2023,Italy,1223400,Coupé,Supercars,Factory,044S,false,true,Petrol,I4,2999,Twin Turbocharger,650,780,AWD,Manual,6,1200,310,2.9
+IFR Automotive,Aspid GT-21 Invictus,2013,Spain,167550,Coupé,Supercars,Factory,Aspid,false,true,Petrol,V8,4361,Naturally Aspirated,450,440,RWD,Dual-Clutch,7,990,305,3
+Infiniti,FX50 Vettel Edition,2012,Japan,71200,S.U.V.,Super S.U.V.,Factory,FX50,false,true,Petrol,V8,5026,Naturally Aspirated,420,500,AWD,Automatic,7,2098,300,5.6
+Infiniti,G35 Coupé (CV35),2005,Japan,9326,Coupé,Sports Cars,Factory,G35,false,true,Petrol,V6,3498,Naturally Aspirated,302,260,RWD,Manual,6,1599,250,5.9
+Infiniti,G37 Coupé (CV36),2007,Japan,17300,Coupé,Sports Cars,Factory,G37,false,true,Petrol,V6,3696,Naturally Aspirated,320,366,RWD,Manual,6,1664,250,5.9
+Infiniti,G37 IPL Coupé (CV36),2011,Japan,19850,Coupé,Sports Cars,Factory,G37,false,true,Petrol,V6,3696,Naturally Aspirated,354,374,RWD,Manual,6,1691,250,5.5
+Infiniti,Q50 Eau Rouge,2014,Japan,134000,Executive,Super Saloons,Concept,Q50,false,true,Petrol,V6,3799,Twin Turbocharger,566,600,AWD,Sequential,7,1739,290,4.1
+Infiniti,Q50 Red Sport 400,2017,Japan,57200,Executive,Super Saloons,Factory,Q50,false,true,Petrol,V6,2997,Twin Turbocharger,406,475,RWD,Sequential,7,1748,250,5.1
+Infiniti,Q60 Concept,2015,Japan,100000,Coupé,Sports Cars,Concept,Q60,false,true,Petrol,V6,2997,Twin Turbocharger,558,750,AWD,Sequential,7,1790,290,4.2
+Infiniti,Q60 Red Sport 400 (V37),2016,Japan,76700,Coupé,Sports Cars,Factory,Q60,false,true,Petrol,V6,2997,Twin Turbocharger,406,475,RWD,Automatic,7,1752,250,4.9
+Infiniti,Q60 Project Black S (V37),2018,Japan,234000,Coupé,Supercars,Concept,Q60,false,true,Mild Hybrid (Petrol),V6,2997,Twin Turbocharger,572,660,RWD,Sequential,7,1680,320,3.9
+Infiniti,QX70 5.0,2013,Japan,26000,S.U.V.,Super S.U.V.,Factory,QX70,false,true,Petrol,V8,5026,Naturally Aspirated,390,500,AWD,Automatic,7,2120,250,5.8
+Kia,Cee’d GT T-GDI 205 (CD),2018,South Korea,27880,Compact,Hot Hatches,Factory,Cee’d,false,true,Petrol,I4,1591,Single Turbocharger,204,265,FWD,Manual,6,1311,230,7.5
+KTM,X-Bow GT-XR,2023,Austria,355999,Coupé,Supercars,Factory,X-Bow,false,true,Petrol,I5,2480,Single Turbocharger,500,581,RWD,Dual-Clutch,7,1130,280,3.4
+KTM,X-Bow R,2011,Austria,96900,Roadster,Sports Cars,Factory,X-Bow,false,true,Petrol,I4,1984,Single Turbocharger,300,400,RWD,Manual,6,790,240,3.9
+Lamborghini,5-95 Zagato,2014,Italy,1112000,Coupé,Supercars,Factory,Gallardo,false,true,Petrol,V10,5204,Naturally Aspirated,570,540,AWD,Manual,6,1560,325,3.3
+Lamborghini,Countach LP400,1974,Italy,989375,Coupé,Supercars,Factory,Countach,true,true,Petrol,V12,3929,Naturally Aspirated,375,362,RWD,Manual,5,1480,288,6.7
+Lamborghini,Miura P400,1966,Italy,1950000,Coupé,Supercars,Factory,Miura,true,true,Petrol,V12,3929,Naturally Aspirated,350,369,RWD,Manual,5,1300,276,5.1
+Lamborghini,Miura P400 S,1968,Italy,2475000,Coupé,Supercars,Factory,Miura,true,true,Petrol,V12,3929,Naturally Aspirated,370,388,RWD,Manual,5,1305,285,5
+Lamborghini,Miura P400 SV,1971,Italy,3000000,Coupé,Supercars,Factory,Miura,true,true,Petrol,V12,3929,Naturally Aspirated,391,399,RWD,Manual,5,1345,295,6.5
+Lamborghini,Revuelto,2023,Italy,689000,Coupé,Hypercars,Factory,Revuelto,false,true,Plug-in Hybrid (Petrol),V12,6498,Naturally Aspirated,1016,900,AWD,Dual-Clutch,8,1772,360,2.5
+Lotus,340R,1999,United Kingdom,51906,Roadster,Sports Cars,Factory,340R,true,true,Petrol,I4,1796,Naturally Aspirated,177,171,RWD,Manual,5,696,217,5.7
+Lotus,Eletre R,2022,United Kingdom,153090,S.U.V.,Super S.U.V.,Factory,Eletre,false,true,Electric,2 Motors,0,,918,985,AWD,Automatic,2,2640,265,3.0
+Lotus,Emeya,2024,United Kingdom,134000,Executive,Super Saloons,Factory,Emeya,false,true,Electric,2 Motors,0,,918,985,AWD,Automatic,2,2000,256,2.8
+Lotus,Europa S,2006,United Kingdom,38000,Coupé,Sports Cars,Factory,Europa,false,true,Petrol,I4,1998,Single Turbocharger,200,270,RWD,Manual,6,995,230,5.8
+Lotus,Evija,2022,United Kingdom,2340000,Coupé,Hypercars,Factory,Evija,false,true,Electric,4 Motors,0,,2000,1700,AWD,Automatic,1,1680,320,2.9
+Lotus,Evora GT430,2019,United Kingdom,152269,Coupé,Supercars,Factory,Evora,false,true,Petrol,V6,3456,Single Supercharger,436,440,RWD,Manual,6,1299,305,3.7
+Lotus,Exige S LF1,2014,United Kingdom,84900,Coupé,Sports Cars,Factory,Exige,false,true,Petrol,V6,3500,Single Supercharger,345,400,RWD,Manual,6,1177,275,4.0
+Maserati,250F,1954,Italy,12000000,Monoposto,Formula Cars,Factory,250F,true,false,Petrol,I6,2494,Naturally Aspirated,240,237,RWD,Manual,4,630,290,5.6
+Maserati,8CTF,1938,Italy,34000000,Monoposto,Formula Cars,Factory,8CTF,true,false,Petrol,I8,2991,Twin Supercharger,365,473,RWD,Manual,4,780,290,5.2
+Maserati,3500 GTi Coupé (AM101),1961,Italy,251336,Coupé,Sports Cars,Factory,3500 GT,true,true,Petrol,I6,3485,Naturally Aspirated,235,314,RWD,Manual,5,1420,221,7.2
+Maserati,4200 GT CambioCorsa Coupé (M138),2002,Italy,28700,Coupé,Sports Cars,Factory,4200 GT,false,true,Petrol,V8,4244,Naturally Aspirated,390,451,RWD,Robotized,6,1680,281,4.8
+Maserati,4200 GT Coupé (M138),2002,Italy,32500,Coupé,Sports Cars,Factory,4200 GT,false,true,Petrol,V8,4244,Naturally Aspirated,390,451,RWD,Manual,6,1680,281,4.8
+Maserati,A6GCS/53 Pinifarina Berlinetta,1953,Italy,3625000,Coupé,Sports Cars,Factory,A6,true,true,Petrol,I6,1986,Naturally Aspirated,170,194,RWD,Manual,4,900,203,7.5
+Maserati,Ghibli Cup (AM336),1995,Italy,35000,Coupé,Sports Cars,Factory,Ghibli,true,true,Petrol,V6,1996,Twin Turbocharger,330,371,RWD,Manual,6,1365,270,5.6
+Maserati,Ghibli S Q4 (M157),2013,Italy,42900,Mid-Size,Super Saloons,Factory,Ghibli,false,true,Petrol,V6,2979,Twin Turbocharger,410,550,AWD,Automatic,8,1865,286,4.5
+Maserati,GranSport Coupé (M138),2004,Italy,49900,Coupé,Sports Cars,Factory,GranSport,false,true,Petrol,V8,4244,Naturally Aspirated,401,452,RWD,Manual,6,1680,285,4.8
+Maserati,GranSport Coupé CambioCorsa (M138),2004,Italy,41680,Coupé,Sports Cars,Factory,GranSport,false,true,Petrol,V8,4244,Naturally Aspirated,401,452,RWD,Robotized,6,1680,285,4.8
+Maserati,GranTurismo S (M145),2008,Italy,47990,Coupé,Sports Cars,Factory,GranTurismo,false,true,Petrol,V8,4691,Naturally Aspirated,441,490,RWD,Robotized,6,1880,298,5.5
+Maserati,GranTurismo MC Stradale (M145),2012,Italy,96780,Coupé,Sports Cars,Factory,GranTurismo,false,true,Petrol,V8,4691,Naturally Aspirated,460,520,RWD,Sequential,6,1800,303,5.1
+Maserati,GranTurismo Folgore (M189),2023,Italy,196950,Coupé,Supercars,Factory,GranTurismo,false,true,Electric,3 Motors,0,,762,1350,RWD,Automatic,1,2260,320,2.7
+Maserati,GranTurismo Modena (M189),2023,Italy,181350,Coupé,Sports Cars,Factory,GranTurismo,false,true,Petrol,V6,2992,Twin Turbocharger,497,600,RWD,Automatic,8,1795,302,3.9
+Maserati,GranTurismo Trofeo (M189),2023,Italy,225650,Coupé,Supercars,Factory,GranTurismo,false,true,Petrol,V6,2992,Twin Turbocharger,558,650,RWD,Automatic,8,1795,320,3.5
+Maserati,Levante S Q4 (M161),2016,Italy,54990,S.U.V.,Super S.U.V.,Factory,Levante,false,true,Petrol,V6,2979,Twin Turbocharger,430,580,AWD,Automatic,8,2109,270,5.1
+Maserati,Levante Trofeo (M161),2018,Italy,73800,S.U.V.,Super S.U.V.,Factory,Levante,false,true,Petrol,V8,3798,Twin Turbocharger,590,730,AWD,Automatic,8,2170,299,4.0
+Maserati,MC12 Stradale (M144S),2004,Italy,4000000,Targa,Supercars,Factory,MC12,false,true,Petrol,V12,5998,Naturally Aspirated,632,652,RWD,Robotized,6,1531,334,3.5
+Maserati,MC12 GT1 (M144),2005,Italy,6780000,Coupé,GT Superstars,Factory,MC12,false,false,Petrol,V12,5998,Naturally Aspirated,630,652,RWD,Sequential,6,1120,322,2.3
+Maserati,MC12 Corsa (M144),2006,Italy,5220300,Coupé,Track Weapons,Factory,MC12,false,false,Petrol,V12,5999,Naturally Aspirated,756,740,RWD,Robotized,6,1150,330,3.0
+Maserati,MC20 Coupé (M240),2020,Italy,216450,Coupé,Supercars,Factory,MC20,false,true,Petrol,V6,2992,Twin Turbocharger,630,730,RWD,Dual-Clutch,8,1475,333,3.3
+Maserati,MC20 Cielo (M240),2022,Italy,265400,Convertible,Supercars,Factory,MC20,false,true,Petrol,V6,2992,Twin Turbocharger,630,730,RWD,Dual-Clutch,8,1540,330,3.4
+Maserati,MCxtrema (M240),2023,Italy,2670000,Coupé,Track Weapons,Factory,MC20,false,false,Petrol,V6,3000,Twin Turbocharger,751,880,RWD,Sequential,6,1300,340,2.6
+Maserati,Quattroporte GT S (M139),2008,Italy,48990,Executive,Super Saloons,Factory,Quattroporte,false,true,Petrol,V8,4691,Naturally Aspirated,440,490,RWD,Automatic,6,1990,286,5.2
+Mazda,3 MPS (BK),2006,Japan,12499,Compact,Hot Hatches,Factory,Mazda3,false,true,Petrol,I4,2261,Single Turbocharger,260,380,FWD,Manual,6,1410,255,6.1
+Mazda,3 MPS (BL),2009,Japan,15670,Compact,Hot Hatches,Factory,Mazda3,false,true,Petrol,I4,2261,Single Turbocharger,260,380,FWD,Manual,6,1385,252,5.9
+Mazda,3 2.2 Skyactiv-D 150 (BM2),2016,Japan,11400,Compact,Hatchback,Factory,Mazda3,false,true,Diesel,I4,2189,Single Turbocharger,150,380,FWD,Manual,6,1320,216,8.3
+Mazda,3 2.5 Skyactiv-G Turbo AWD (BP),2020,Japan,33970,Compact,Hot Hatches,Factory,Mazda3,false,true,Petrol,I4,2488,Single Turbocharger,253,434,AWD,Automatic,6,1535,258,5.8
+Mazda,6 MPS (GC1),2005,Japan,14560,Mid-Size,Super Saloons,Factory,Mazda6,false,true,Petrol,I4,2261,Single Turbocharger,260,380,AWD,Manual,6,1590,257,6.0
+Mazda,6 2.5 Skyactiv-G Turbo (GL),2018,Japan,31200,Mid-Size,Super Saloons,Factory,Mazda6,false,true,Petrol,I4,2488,Single Turbocharger,253,434,FWD,Automatic,6,1615,250,6.5
+Mazda,MX-3 1.8 V6,1991,Japan,12900,Coupé,Sports Cars,Factory,MX-3,true,true,Petrol,V6,1845,Naturally Aspirated,133,157,FWD,Manual,5,1160,202,9.7
+Mazda,RX-8 High Power,2003,Japan,11780,Coupé,Sports Cars,Factory,RX-8,false,true,Petrol,R2,1308,Naturally Aspirated,231,216,RWD,Manual,6,1385,235,7.0
+Mazda,RX-8 Low Power,2003,Japan,7680,Coupé,Sports Cars,Factory,RX-8,false,true,Petrol,R2,1308,Naturally Aspirated,192,220,RWD,Manual,5,1373,225,7.4
+Mazda,RX-Vision,2015,Japan,970000,Coupé,Supercars,Concept,RX-Vision,false,true,Petrol,R4,2618,Naturally Aspirated,550,456,RWD,Manual,6,1563,320,3.4
+McLaren,F1,1993,United Kingdom,20465000,Coupé,Hypercars,Factory,F1,true,true,Petrol,V12,6064,Naturally Aspirated,610,652,RWD,Manual,6,1263,386,3.4
+McLaren,GTS,2024,United Kingdom,245000,Coupé,Supercars,Factory,GT,false,true,Petrol,V8,3994,Twin Turbocharger,635,630,RWD,Dual-Clutch,7,1466,327,3.4
+McLaren,Solus GT,2022,United Kingdom,3457000,Coupé,Track Weapons,Factory,Solus GT,false,true,Petrol,V10,5200,Naturally Aspirated,840,650,RWD,Sequential,7,1000,322,2.5
+McLaren,Speedtail,2020,United Kingdom,2975000,Coupé,Hypercars,Factory,Speedtail,false,true,Mild Hybrid (Petrol),V8,3994,Twin Turbocharger,1070,1150,RWD,Dual-Clutch,7,1430,403,3
+Morgan,Aero Supersports,2010,United Kingdom,169000,Coupé,Sports Cars,Factory,Aero 8,false,true,Petrol,V8,4799,Naturally Aspirated,367,495,RWD,Manual,6,1175,273,4.2
+Morgan,Aero GT,2018,United Kingdom,130660,Convertible,Sports Cars,Factory,Aero 8,false,true,Petrol,V8,4799,Naturally Aspirated,367,490,RWD,Manual,6,1180,273,4.5
+Polestar,1,2019,Sweden,155000,Coupé,Sports Cars,Factory,Polestar 1,false,true,Plug-in Hybrid (Petrol),I4,1969,Single Turbocharger,617,1000,AWD,Automatic,8,2350,250,4.2
+Polestar,2 BST Edition 270,2022,Sweden,76890,Mid-Size,Super Saloons,Factory,Polestar 2,false,true,Electric,2 Motors,0,,476,680,AWD,Automatic,1,2340,220,4.3
+Polestar,2 BST Edition 230,2023,Sweden,78990,Mid-Size,Super Saloons,Factory,Polestar 2,false,true,Electric,2 Motors,0,,476,680,AWD,Automatic,1,2340,220,4.3
+Ruf,CTR3 (987C),2007,Germany,380000,Coupé,Hypercars,Factory,CTR,false,true,Petrol,F6,3746,Twin Turbocharger,700,890,RWD,Manual,6,1400,375,3.2
+Ruf,RK Coupé (987C),2007,Germany,178000,Coupé,Supercars,Factory,RK,false,true,Petrol,F6,3824,Single Supercharger,446,470,RWD,Manual,6,1365,304,3.9
+Saab,9-2X Aero,2004,Sweden,7890,Mid-Size,Super Saloons,Factory,9-2X,false,true,Petrol,F4,1994,Single Turbocharger,227,295,AWD,Manual,5,1407,226,6.1
+Saab,9-2X Aero,2006,Sweden,8560,Mid-Size,Super Saloons,Factory,9-2X,false,true,Petrol,F4,2457,Single Turbocharger,230,319,AWD,Manual,5,1407,230,6
+Saab,9-3 Aero Coupé,2000,Sweden,8780,Coupé,Sports Cars,Factory,9-3,false,true,Petrol,I4,1985,Single Turbocharger,205,284,FWD,Manual,5,1405,235,7.3
+Saab,9-3 Turbo X,2008,Sweden,25900,Executive,Super Saloons,Factory,9-3,false,true,Petrol,V6,2792,Single Turbocharger,280,400,AWD,Automatic,6,1605,250,5.7
+Saab,99 Turbo,1979,Sweden,18800,Compact,Hot Hatches,Factory,99,true,true,Petrol,I4,1985,Single Turbocharger,145,235,FWD,Manual,4,1210,195,8.9
+Saab,900 Turbo 16S,1994,Sweden,24000,Compact,Hot Hatches,Factory,900,true,true,Petrol,I4,1985,Single Turbocharger,185,263,FWD,Manual,5,1360,223,8
+Saleen,S1,2018,United States of America,112550,Coupé,Sports Cars,Factory,S1,false,true,Petrol,I4,2500,Single Turbocharger,457,475,RWD,Manual,6,1218,289,3.5
+Saleen,S320 Extreme,2008,United States of America,66000,Coupé,Supercars,Tuned,Mustang,false,true,Petrol,V8,5000,Single Supercharger,620,814,RWD,Manual,6,1654,323,3.9
+Saleen,SR,1999,United States of America,59660,Coupé,Supercars,Tuned,Mustang,true,true,Petrol,V8,5800,Naturally Aspirated,498,678,RWD,Manual,6,1407,326,3.8
+Savage Rivale,Roadyacht GTR,2012,Netherlands,765000,Coupé,GT Superstars,Factory,Roadyacht,false,false,Petrol,V8,6199,Single Turbocharger,800,780,RWD,Manual,6,1030,360,2.8
+Savage Rivale,Roadyacht GTR-S,2014,Netherlands,897000,Coupé,Hypercars,Factory,Roadyacht,false,true,Petrol,V8,6199,Single Turbocharger,800,780,RWD,Manual,6,1140,355,2.9
+Savage Rivale,Roadyacht GTS,2009,Netherlands,547000,Convertible,Supercars,Factory,Roadyacht,false,true,Petrol,V8,6199,Single Supercharger,679,730,RWD,Robotized,6,1280,330,3.4
+Spyker,C8 Double 12S,2004,Netherlands,550000,Coupé,Supercars,Factory,Spyker C8,false,true,Petrol,V8,3999,Twin Turbocharger,620,678,RWD,Manual,6,1227,345,3.6
+Spyker,C8 Preliator,2016,Netherlands,312000,Coupé,Supercars,Factory,Spyker C8,false,true,Petrol,V8,4172,Single Supercharger,525,600,RWD,Manual,6,1390,322,3.7
+Spyker,C12 Zagato,2007,Netherlands,888000,Coupé,Supercars,Factory,Spyker C12,false,true,Petrol,W12,5988,Naturally Aspirated,500,610,RWD,Manual,6,1480,314,3.7
+Suzuki,Swift Sport,2017,Japan,21345,Supermini,Hot Hatches,Factory,Swift,false,true,Petrol,I4,1371,Single Turbocharger,140,230,FWD,Manual,6,970,210,8.1
+Toyota,GR Corolla Circuit Edition (X210),2021,Japan,43995,Compact,Hot Hatches,Factory,Corolla,false,true,Petrol,I3,1618,Single Turbocharger,305,370,AWD,Manual,6,1467,250,5.3
+Toyota,GR Corolla Core Edition (X210),2021,Japan,36995,Compact,Hot Hatches,Factory,Corolla,false,true,Petrol,I3,1618,Single Turbocharger,305,370,AWD,Manual,6,1474,250,5.3
+Toyota,GR Corolla Morizo Editon (X210),2021,Japan,51245,Compact,Hot Hatches,Factory,Corolla,false,true,Petrol,I3,1618,Single Turbocharger,305,400,AWD,Manual,6,1445,250,5.2
+Toyota,Mega Cruiser,1995,Japan,152100,S.U.V.,Full-Size S.U.V.,Factory,Mega Cruiser,true,true,Diesel,I6,4164,Single Turbocharger,138,382,AWD,Automatic,4,2850,130,24.6
+Volkswagen,1-Liter Car,2003,Germany,1200000,Coupé,Eco Cars,Concept,Volkswagen XL,false,true,Diesel,I1,299,Naturally Aspirated,8,27,RWD,Automatic,6,290,120,21.9
+Volkswagen,1100 (Typ 1),1945,Germany,12340,Supermini,Compacts,Factory,Beetle,true,true,Petrol,F4,1131,Naturally Aspirated,24,67,RWD,Manual,4,725,96,-1
+Volkswagen,1200 (Typ 1),1953,Germany,14560,Supermini,Compacts,Factory,Beetle,true,true,Petrol,F4,1192,Naturally Aspirated,30,75,RWD,Manual,4,730,110,38.1
+Volkswagen,1200 (Typ 1),1960,Germany,15000,Supermini,Compacts,Factory,Beetle,true,true,Petrol,F4,1192,Naturally Aspirated,34,82,RWD,Manual,4,760,115,37.5
+Volkswagen,1300 (Typ 1),1965,Germany,15600,Supermini,Compacts,Factory,Beetle,true,true,Petrol,F4,1285,Naturally Aspirated,41,87,RWD,Manual,4,780,122,26.5
+Volkswagen,1500 Sedan,1961,Germany,10230,Mid-Size,Saloons,Factory,Typ 3,true,true,Petrol,F4,1493,Naturally Aspirated,45,98,RWD,Manual,4,880,130,18.9
+Volkswagen,AAC Concept,2000,Germany,457000,Pick-Up,Offroaders,Concept,AAC,false,true,Diesel,V10,5000,Twin Turbocharger,313,750,AWD,Automatic,6,2320,200,7.8
+Volkswagen,Amarok Dual Cab 2.0 TDI 120,2010,Germany,16780,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Single Turbocharger,122,340,RWD,Manual,6,1872,163,13.5
+Volkswagen,Amarok Dual Cab 2.0 TDI 140,2012,Germany,17230,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Single Turbocharger,140,340,RWD,Manual,6,1768,169,12.9
+Volkswagen,Amarok Dual Cab 2.0 BiTDI 165,2010,Germany,17990,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Twin Turbocharger,163,400,RWD,Manual,6,1882,182,10.8
+Volkswagen,Amarok Dual Cab 2.0 BiTDI 180,2011,Germany,18000,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Twin Turbocharger,180,400,RWD,Manual,6,1911,179,10.5
+Volkswagen,Amarok Dual Cab 2.0 TSI 160,2012,Germany,17900,Pick-Up,Offroaders,Factory,Amarok,false,true,Petrol,I4,1984,Single Turbocharger,160,300,RWD,Manual,6,1842,155,12.9
+Volkswagen,Amarok Dual Cab 3.0 TDI 165,2017,Germany,21780,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,V6,2970,Single Turbocharger,163,450,AWD,Manual,6,2127,182,10.8
+Volkswagen,Amarok Dual Cab 3.0 TDI 205,2016,Germany,21890,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,V6,2967,Single Turbocharger,204,500,AWD,Dual-Clutch,8,2128,186,9
+Volkswagen,Amarok Dual Cab 3.0 TDI 225,2016,Germany,22640,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,V6,2967,Single Turbocharger,224,550,AWD,Dual-Clutch,8,2078,193,7.9
+Volkswagen,Amarok Dual Cab 3.0 TDI 260,2018,Germany,24500,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,V6,2967,Single Turbocharger,258,580,AWD,Dual-Clutch,8,2244,205,7.3
+Volkswagen,Amarok Single Cab 2.0 BiTDI 165,2010,Germany,16990,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Twin Turbocharger,163,400,RWD,Manual,6,1882,182,10.8
+Volkswagen,Amarok Single Cab 2.0 BiTDI 180,2011,Germany,17750,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Twin Turbocharger,180,400,RWD,Manual,6,1911,179,10.5
+Volkswagen,Amarok Single Cab 2.0 TDI 120,2010,Germany,15340,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Single Turbocharger,122,340,RWD,Manual,6,1872,163,13.5
+Volkswagen,Amarok Single Cab 2.0 TDI 140,2012,Germany,16230,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,I4,1968,Single Turbocharger,140,340,RWD,Manual,6,1768,169,12.9
+Volkswagen,Amarok Single Cab 2.0 TSI 160,2012,Germany,17900,Pick-Up,Offroaders,Factory,Amarok,false,true,Petrol,I4,1984,Single Turbocharger,160,300,RWD,Manual,6,1842,155,12.9
+Volkswagen,Amarok Single Cab 3.0 TDI 205,2016,Germany,20890,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,V6,2967,Single Turbocharger,204,500,AWD,Dual-Clutch,8,2128,186,9
+Volkswagen,Amarok Single Cab 3.0 TDI 225,2016,Germany,21640,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,V6,2967,Single Turbocharger,224,550,AWD,Dual-Clutch,8,2078,193,7.9
+Volkswagen,Amarok Single Cab 3.0 TDI 260,2018,Germany,23000,Pick-Up,Offroaders,Factory,Amarok,false,true,Diesel,V6,2967,Single Turbocharger,258,580,AWD,Dual-Clutch,8,2244,205,7.3
+Volkswagen,Ameo 1.2,2017,Germany,9575,Supermini,Compacts,Factory,Ameo,false,true,Petrol,I3,1198,Naturally Aspirated,75,110,FWD,Manual,5,1044,170,14.2
+Volkswagen,Ameo 1.5 TDI 110,2017,Germany,10500,Supermini,Compacts,Factory,Ameo,false,true,Diesel,I4,1498,Single Turbocharger,110,250,FWD,Manual,5,1138,185,9.9
+Volkswagen,Ameo 1.5 TDI 110 DSG,2017,Germany,10500,Supermini,Compacts,Factory,Ameo,false,true,Diesel,I4,1498,Single Turbocharger,110,250,FWD,Dual-Clutch,7,1138,185,9.9
+Volkswagen,ART3on Concept,2018,Germany,231000,Executive,Super Saloons,Art Car,Arteon,false,true,Petrol,I4,2000,Single Turbocharger,490,600,AWD,Dual-Clutch,8,1641,280,3.9
+Volkswagen,Passat W8 (Typ 3B),2001,Germany,7590,Mid-Size,Super Saloons,Factory,Passat,false,true,Petrol,W8,3999,Naturally Aspirated,275,370,AWD,Manual,6,1665,250,6.4
+Volkswagen,XL1,2013,Germany,159000,Coupé,Eco Cars,Factory,Volkswagen XL,false,true,Plug-in Hybrid (Diesel),I2,800,Single Turbocharger,70,140,RWD,Dual-Clutch,7,795,160,11.9
+Wiesmann,GT MF5,2010,Germany,299000,Coupé,Supercars,Factory,MF5,false,true,Petrol,V8,4395,Twin Turbocharger,555,680,RWD,Automatic,6,1405,311,3.9
