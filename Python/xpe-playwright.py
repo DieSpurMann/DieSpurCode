@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright, Playwright
 with sync_playwright() as playwright:
     lCarVal = dict()
     i = 0
-    nomMarque = 'Audi'
+    nomMarque = 'Koenigsegg'
     firefox = playwright.firefox
     browser = firefox.launch(headless=False, slow_mo=50)
     page = browser.new_page()
