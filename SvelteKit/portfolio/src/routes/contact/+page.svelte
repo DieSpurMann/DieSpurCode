@@ -12,11 +12,11 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    color: #333;
-    font-family: Arial, sans-serif;
+    color: #625355;
   }
   h1 {
-    color: #007bff; /* Blue color for the header */
+    color: #FF8000; /* Blue color for the header */
+    font-weight: 885;
   }
   form {
     display: flex;
@@ -27,25 +27,28 @@
   }
   input, textarea {
     padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #E4E4E4;
   }
   button {
     padding: 0.5rem;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #02002E;
+    color: #FF8000;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   button:hover {
-    background-color: #ff7f00; /* Orange hover effect */
+    background-color: #625355; /* Orange hover effect */
+    color: #ED9122;
+    font-weight: bold;
   }
 </style>
 
 <main>
-  <h1>Contact Me</h1>
+  <h1>Contactez Moi</h1>
   <form>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required />

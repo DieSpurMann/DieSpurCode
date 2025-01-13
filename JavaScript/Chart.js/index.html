@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Chart.js Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <canvas id="myChart" width="400" height="200"></canvas>
+  <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Porsche 911 GT2 RS (991.2)', 'Lamborghini Aventador LP 770-4 SVJ', 'Ferrari 812 Superfast', 'Bugatti Veyron 16.4', 'Bugatti Chiron', 'Bugatti Chiron Super Sport 300+', 'Koenigssegg Jesko',],
+        datasets: [{
+          label: 'Horsepower of cars',
+          data: [700, 770, 800,1001, 1500, 1600, 1600],
+          backgroundColor: [
+            '#FFBB00',
+            '#AAFF23',
+            '#EE1212',
+            '#0AF',
+            '#0AF',
+            '#0AF',
+            '#FA0',
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
