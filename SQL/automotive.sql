@@ -1,5 +1,5 @@
--- Active: 1708441713397@@localhost@5432@postgres@automotive
---create schema
+-- Active: 1733383437039@@127.0.0.1@5432@mydb
+
 create schema if not exists Automotive;
 set schema 'automotive';
 
