@@ -1,0 +1,20 @@
+{
+    "tasks": [
+        {
+            "label": "Compile & Run C file",
+            "type": "shell",
+            "command": "cc \"${file}\" -Wall -o \"${fileDirname}/${fileBasenameNoExtension}.exe\" && \"${fileDirname}/${fileBasenameNoExtension}.exe\" && rm \"${fileDirname}/${fileBasenameNoExtension}.exe\""
+        },
+        {
+            "label": "Run Python file",
+            "type": "shell",
+            "command": "python3 \"${fileDirname}/${fileBasename}\""
+        },
+        {
+            "label": "Run Ruby file",
+            "type": "shell",
+            "command": "ruby \"${fileDirname}/${fileBasename}\""
+        }
+    ],
+    "version": "2.0.0"
+}
