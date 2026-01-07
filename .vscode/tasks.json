@@ -6,9 +6,19 @@
             "command": "cc \"${file}\" -Wall -o \"${fileDirname}/${fileBasenameNoExtension}.exe\" && \"${fileDirname}/${fileBasenameNoExtension}.exe\" && rm \"${fileDirname}/${fileBasenameNoExtension}.exe\""
         },
         {
+            "label": "Run JavaScript file",
+            "type": "shell",
+            "command": "node \"${fileDirname}/${fileBasename}\""
+        },
+        {
+            "label": "Run Lua file",
+            "type": "shell",
+            "command": "lua \"${fileDirname}/${fileBasename}\""
+        },
+        {
             "label": "Run Python file",
             "type": "shell",
-            "command": "python3 \"${fileDirname}/${fileBasename}\""
+            "command": "${fileDirname}/diespurpython/bin/python3.12 ${fileDirname}/${fileBasename}"
         },
         {
             "label": "Run Ruby file",

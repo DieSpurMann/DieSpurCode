@@ -1,0 +1,246 @@
+Vehicle Make,Vehicle Model,Year,Top Speed ,Type of Vehicle,Country 
+Koenigsegg,Jesko Absolut,2023,532,Hypercar ,Sweden
+Corbellati,Missile,2018,500,Hypercar,Italy
+Bugatti,Bolide,2022,500,Track Car,France
+Yangwang,U9 Xtreme ,2025,496,Hypercar,China
+Mosler,Mosler MT900 GTR XX Land Shark,2008,491,Hypercar,United States 
+Bugatti,Chiron Super Sport 300+,2021,490,Hypercar,France
+Koenigsegg,Jesko,2019,485,Hypercar,Sweden
+Hennessey,Venom F5,2020,484,Hypercar ,United States 
+Saleen,S7 LM,2017,480,Hypercar ,United States 
+Yangwang,U9 Track,2025,472,Hypercar ,China
+Zenvo,Aurora Tur,2025,450,Hypercar ,Denmark
+Bugatti,Chiron Super Sport,2021,447,Hypercar ,France
+Bugatti,Tourbillion,2026,445,Hypercar ,France
+9ff,GT9 VMAX,2013,437,Hypercar,Germany
+Fahlke,Larea GT1 S12,2014,430,Hypercar,Germany
+Zenvo,TSR-GT,2023,424,Hypercar ,Denmark
+Bugatti,Chiron,2016,420,Hypercar,France
+Saleen,S7 Twin Turbo Performance Upgrade,2006,418,Hypercar,United States 
+9ff,GT9-R,2009,414,Hypercar,Germany
+9ff,GT9-CS,2011,414,Hypercar,Germany
+Arcfox,GT,2019,410,Hypercar ,China
+9ff,GT9,2007,409,Hypercar,Germany
+Bugatti,Veyron 16.4,2005,407,Hypercar,France
+Vision,1789,2021,405,Hypercar ,France
+McLaren,Speedtail,2020,403,Hypercar,United Kingdom
+Saleen,S7 Twin Turbo Competition Package,2005,403,Hypercar ,United States 
+Ultima,RS 800,2019,402,Hypercar,United Kingdom
+Fahlke,Larea GT1 S10,2012,400,Hypercar,Germany
+Toroidon,1MW Concept,2015,400,Hypercar ,Finland
+W Motors,Fenyr SuperSport,2015,400,Hypercar ,United Arab Emirates
+Mazzanti,Evantra Millecavalli,2016,400,Hypercar ,Italy
+Toroidon,Eussta M1,2019,400,Hypercar ,Finland
+Aspark,Owl,2020,400,Hypercar,Japan
+Saleen,S7 Twin Turbo,2005,399,Hypercar,United States 
+Yangwang,U9,2023,392,Hypercar ,China
+Aria Group,FXE,2019,391,Hypercar,United States 
+McLaren,F1 GT,1997,387,Hypercar,United Kingdom
+Ultima,Evolution Coupé,2015,387,Hypercar,United Kingdom
+McLaren,F1,1993,386,Hypercar,United Kingdom
+TVR,Cerbera Speed 12,1997,386,Hypercar,United Kingdom
+W Motors,Lykan HyperSport,2014,385,Hypercar ,United Arab Emirates
+Tushek,TS 900 Apex,2022,380,Hypercar,Slovenia
+Zenvo,ST1,2009,375,Hypercar ,Denmark
+Zenvo,ST1 50S,2011,375,Hypercar ,Denmark
+Zenvo,TS1 GT 10th Anniversary,2017,375,Hypercar ,Denmark
+Chevrolet,Corvette ZR1X (C8),2025,375,Supercar,United States 
+Lotec,C1000,1991,374,Hypercar,Germany
+Spania GTA,Spano,2015,371,Hypercar ,Spain
+Jaguar,XJ220S,1994,368,Hypercar,United Kingdom
+Top Secret,"Supra V12 ""Final Evolution"" (A80)",2007,366,Sports Car,Japan
+Zenvo,Aurora Agil,2025,365,Hypercar ,Denmark
+McLaren,F1 LM,1995,362,Hypercar ,United Kingdom
+RUF,Rt 12 S (997.1),2005,360,Supercar ,Germany
+Noble,M600,2011,360,Hypercar,United Kingdom
+Aston Martin,Vulcan,2015,360,Track Car,United Kingdom
+Mazzanti,Evantra V8,2016,360,Hypercar,Italy
+Aston Martin,Victor,2020,360,Hypercar ,United Kingdom
+Mazzanti,Evantra Classic,2021,360,Hypercar,Italy
+Delage,D12 GT,2022,360,Hypercar,Finland
+Pagani,Utopia,2023,360,Hypercar,Italy
+Hyperion,XP-1,2020,356,Hypercar,United States 
+Aston Martin,One-77,2010,355,Hypercar,United Kingdom
+Jaguar,XJ220,1992,354,Supercar,United Kingdom
+Saleen,S7,2000,354,Hypercar,United States 
+Mercedes-AMG,One,2022,352,Hypercar,Germany
+BMW,V12 LM,1998,350,Le Mans Prototype,Germany
+BMW,V12 LMR,1999,350,Le Mans Prototype,Germany
+Ferrari,P4/5 by Pininfarina,2006,350,Supercar,Italy
+Spania GTA,Spano,2009,350,Hypercar,Spain
+RUF,RtR (991.1),2015,350,Supercar,Germany
+Genty,Akylone,2024,350,Hypercar,France
+Genty,Akylone Hybrid,2014,350,Hypercar,France
+XIaomi,SU7 Ultra,2024,350,Super Sedan,China
+TVR,Typhon,2004,346,Supercar,United Kingdom
+AC Cars,Cobra Venom V8,2008,345,Supercar,United Kingdom
+Porsche,918 Spyder,2013,345,Hypercar ,Germany
+Aston Martin,Vanquish,2024,344,Supercar,United Kingdom
+McLaren,F1 HDK,1994,340,Hypercar,United Kingdom
+Hispano Suiza,Granturismo,2010,340,Supercar,Spain
+Porsche,911 GT2 RS (991.1),2017,340,Supercar,Germany
+Touring,Aero 3,2020,340,Supercar,Italy
+Veloqx,Fangio,2022,340,Track Car,United Kingdom
+Cadillac,CT5-V Blackwing,2024,337,Super Sedan,United States 
+Lister,Storm V12,1993,335,Supercar,United Kingdom
+Lister,LFT-666,2018,335,Supercar,United Kingdom
+Maserati,MC12,2004,334,Supercar,Italy
+Dodge,Viper SRT GTS,2015,333,Supercar,United States 
+Alfa Romeo,33 Stradale,2023,333,Supercar,Italy
+Porsche,Carrera GT,2003,332,Supercar,Germany
+AC Cars,Cobra GTSR (MkVI),2014,332,Supercar,United Kingdom
+ATS,GT,2017,332,Supercar,Italy
+Ferrari,296 GTB,2021,330,Supercar,Italy
+Top Secret,Supra 0-300 (A80),2005,328,Sports Car,Japan
+Top Secret,Silvia D1-Spec (S15),2000,325,Sports Car,Japan
+Alfa Romeo,TZ3 Stradale,2011,325,Supercar,Italy
+Zenvo,TSR-S,2018,325,Hypercar ,Denmark
+Shelby,Cobra 427 Super Snake,1966,323,Sports Car,United States 
+Aston Martin,V8 Vantage V600,1998,322,Supercar,United Kingdom
+Spyker,C8 Preliator,2016,322,Supercar,Netherlands
+Ginetta,Akula,2019,322,Supercar,United Kingdom
+Ford,Mustang Shelby GT500 Code Red,2020,322,Supercar,United States 
+Lucid,Air Sapphire,2023,322,Super Sedan,United States 
+Lotus,Elise GT1,1997,320,Supercar,United Kingdom
+Audi,R8 LMX,2014,320,Supercar,Germany
+Lister,Stealth,2020,320,Super S.U.V.,United Kingdom
+Noble,M500,2022,320,Supercar,United Kingdom
+Tesla,Model S Plaid,2022,320,Super Sedan,United States 
+Mercedes-McLaren,SLR 722 GT,2008,315,Track Car,Germany
+TVR,Sagaris,2005,314,Supercar,United Kingdom
+NIO,EP9,2016,313,Hypercar,China
+Wiesmann,GT MF5,2010,311,Supercar,Germany
+Tushek,Renovatio T500,2012,311,Supercar,Slovenia
+Wiesmann,GT MF5,2008,310,Supercar,Germany
+Alfa Romeo,Giulia Quadrifoglio (952),2023,308,Super Sedan,Italy
+Alfa Romeo,Giulia Quadrifoglio (952),2016,307,Super Sedan,Italy
+Shelby,Series 1 S/C,1999,306,Supercar,United States 
+Alfa Romeo,8C Competizione,2007,306,Supercar,Italy
+Lyonheart,K,2012,306,Sports Car,United Kingdom
+IFR Automotive,Aspid GT-21 Invictus,2013,305,Supercar,Spain
+Cadillac,CT4-V Blackwing,2021,305,Super Sedan,United States 
+McMurtry,Spéirling Pure,2025,305,Track Car,United Kingdom
+Noble,M15,2006,300,Supercar,United Kingdom
+AC Cars,378 GT Zagato,2012,300,Supercar,United Kingdom
+Alfa Romeo,Giulia GTA (952),2021,300,Super Sedan,Italy
+Alfa Romeo,Giulia GTAm (952),2021,300,Super Sedan,Italy
+Alfa Romeo,Giulia SWB Zagato,2022,300,Supercar,Italy
+HiPhi,A,2023,300,Super Sedan,China
+Bonvensiepen,Zagato,2026,300,Supercar,Germany
+Aston Martin,Virage,2011,299,Sports Car,United Kingdom
+Dodge,Viper GTS-R GT2 Championship Edition,1998,298,Supercar ,United States 
+Lister,Knobbly,2015,292,Sports Car,United Kingdom
+McLaren,M6 GT,1969,290,Supercar ,United Kingdom
+Caterham,Lola SP/300.R,2011,290,Le Mans Prototype,United Kingdom
+Donkervoort,F22,2023,290,Supercar ,Netherlands
+Karma Automotive,Kaveya,2023,290,Supercar,United States 
+Porsche,Taycan Turbo GT,2024,290,Super Sedan,Germany
+Chrysler,300C SRT-8,2012,281,Super Sedan,United States 
+De Tomaso,Biguà,1998,280,Sports Car,Italy
+Zeekr,001 FR,2023,280,Super Sedan,China
+Ferrari,365 GTB/4 Daytona,1968,275,Sports Car,Italy
+Shelby,Series 1,1998,274,Sports Car,United States 
+Artega,GT,2008,273,Sports Car,Germany
+Chrysler,300C SRT-8 (LX),2005,270,Super Sedan,United States 
+Singer,911 (911),2009,270,Sports Car,United States 
+Kia,Stinger GT (CK),2020,270,Super Sedan,South Korea
+Vanwall,Vandervell S Plus,2023,265,Hot Hatch,United Kingdom
+XIaomi,SU7 Max,2023,265,Super Sedan,China
+Cadillac,CTS-V,2003,262,Super Sedan,United States 
+AC Cars,Cobra 427,1965,260,Sports Car,United Kingdom
+Shelby,Cobra 427 S/C,1966,260,Sports Car,United States 
+Arcfox,7,2016,260,Supercar,China
+Fisker,Emotion,2019,260,Super Sedan,United States 
+Mazda,RX-7 (FD3S),1999,256,Sports Car,Japan
+Mazda,6 MPS,2005,256,Super Sedan,Japan
+Lotus,Emeya R,2024,256,Super Sedan,United Kingdom
+Chrysler,Crossfire SRT-6,2004,255,Sports Car,United States 
+Elia,Renault Mégane R.S.,2011,255,Hot Hatch,Germany
+Audi,Sport Quattro (B2),1983,253,Hot Hatch,Germany
+Mazda,RX-7 (FD3),1999,252,Sports Car,Japan
+Mazda,Mazda 3 MPS (BL2) '2011,2011,252,Hot Hatch,Japan
+Mazda,Mazda 6 Turbo '2018,2018,252,Super Sedan,Japan
+Mazda,RX500 Concept,1970,250,Sports Car,Japan
+Dodge,Stealth R/T Twin Turbo,1990,250,Sports Car,United States 
+BMW,Z8 (E52),2000,250,Sports Car,Germany
+Volkswagen,Passat W8 (B5),2001,250,Super Sedan,Germany
+Audi,A3 3.2 Quattro (8P),2004,250,Hot Hatch,Germany
+Cadillac,XLR-V,2005,250,Sports Car,United States 
+Cadillac,STS-V,2007,250,Super Sedan,United States 
+Bitter,Vero,2008,250,Super Sedan,Germany
+IFR Automotive,Aspid Super Sport,2008,250,Sports Car,Spain
+Mazda,RX-8 Type-S,2009,250,Sports Car,Japan
+Caterham,Seven 620R,2013,250,Sports Car,United Kingdom
+BBR,MX-5 Turbo (ND),2017,250,Sports Car,United Kingdom
+Rolls-Royce,Phantom,2017,250,Super Sedan,United Kingdom
+Volvo,S90 T8 Polestar Performance,2018,250,Super Sedan,Sweden
+Volkswagen,Touareg V8 (CR),2019,250,Super S.U.V.,Germany
+DS Automobiles,9 E-Tense 360 4×4,2021,250,Super Sedan,France
+Mercedes-AMG,S 63 E Performance (V223),2023,250,Super Sedan,Germany
+Audi,RS e-Tron GT Performance,2024,250,Super Sedan,Germany
+Cupra,León ST VZ 4DRIVE,2024,250,Super Sedan,Spain
+Cupra,León VZ,2024,250,Hot Hatch ,Spain
+Lotus,Emeya,2024,250,Super Sedan,United Kingdom
+Tatra,MTX,1993,246,Sports Car,Czechia
+Caterham,21 GTO,1999,246,Sports Car,United Kingdom
+Audi,A1 Sportback 40 TFSI Quattro (GB),2021,245,Hot Hatch,Germany
+Vanwall,GPR 12,2005,242,Light Car,United Kingdom
+Delfino,Feroce,2000,241,Sports Car,United Kingdom
+Mastretta,MXT,2011,241,Sports Car,Mexico 
+AC Cars,428 Coupé,1967,240,Sports Car,United Kingdom
+Monica,560,1974,240,Super Sedan,France
+Lincoln,MKZ 3.0 Ecoboost 405,2016,240,Super Sedan,United States 
+McMurtry,McMurtry Spéirling '2022,2022,240,Track Car ,United Kingdom
+Jaguar,XK-SS,1956,239,Sports Car,United Kingdom
+Citroën,C5 X Plug-in Hybrid 225,2022,233,Sedan,France
+Facel Vega,HK 500,1960,230,Sports Car,France
+Kia,Pro Cee'd GT,2013,230,Hot Hatch,South Korea
+Volkswagen,Passat SW GTE (B8),2015,225,Super Sedan,Germany
+Mazda,323 GT-R (BG),1992,224,Hot Hatch,Japan
+Abarth,Abarth 124 GT '2018,2018,224,Sports Car,Italy
+BMW,3.0 CSL (E9),1971,220,Sports Car,Germany
+BMW,3.0 CSi (E9),1972,220,Sports Car,Germany
+BMW,3.0 CSL (E9),1974,220,Sports Car,Germany
+Dodge,Omni GLHS,1986,218,Hot Hatch ,United States 
+Porsche,356/B Carrera GTL Abarth,1960,217,Sports Car,Germany
+SHelby,Cobra 289 Dragon Snake,1963,217,Sports Car,United States 
+Chrysler,TC 205 by Maserati,1988,217,Sports Car,United States 
+Cupra,Terramar,2024,215,Super S.U.V.,Spain
+Toyota,2000GT,1967,210,Sports Car,Japan
+Mitsubishi,Colt Ralliart Version-R,2006,210,Hot Hatch,Japan
+Cadillac,GT4 28T,2023,210,S.U.V.,United States 
+Karma Automotive,Revero GTS,2019,209,Super Sedan,United States 
+Chrysler,PT Cruiser GT,2003,208,Hot Hatch ,United States 
+Cadillac,GT4 25T,2023,205,S.U.V.,United States 
+Talbot,Sunbeam Lotus,1979,204,Hot Hatch,United Kingdom
+Karma Automotive,Revero GT,2019,201,Super Sedan,United States 
+Jaguar,XK 120 SE Roadster,1953,200,Sports Car,United Kingdom
+Suzuki,Kizashi 2.4 VVT 180,2009,200,Sedan,Japan
+FIsker,Karma,2011,200,Super Sedan,United States 
+Karma Automotive,Revero,2016,200,Super Sedan,United States 
+Geely,Azkarra 1.5 TD,2019,200,S.U.V.,China
+Jaguar,XK 120 Roadster,1948,196,Sports Car,United Kingdom
+Volkswagen,Up! GTI,2017,196,Hot Hatch ,Germany
+Facel Vega,Facel 6,1964,195,Sports Car,France
+Alfa Romeo,147 1.6 TwinSpark 120 (937),2004,195,Supermini,Italy
+Dodge,Dart GT,2013,190,Sedan,United States 
+Kia,Rio 1.0 T-GDI 120 MHEV,2017,190,Supermini,South Korea
+RAM,1500 TRX Crew Cab,2020,190,Sports Pick-up,United States 
+Vanwall,Vandervell S,2023,185,Hot Hatch ,United Kingdom
+Honda,City Turbo II (AA),1983,180,Hot Hatch,Japan
+Toyota,Prius PHEV,2023,180,Sedan,Japan
+Cupra,Tavascan,2024,180,Super S.U.V.,Spain
+Suzuki,Swift 1.3,2003,175,Supermini,Japan
+Renault,Clio E-Tech 145 Hybrid,2022,175,Supermini,France
+VInFast,VF7 75.3 kWh 355,2022,175,S.U.V.,Vietnam
+Renault,Clio E-Tech 145 Full-Hybrid,2023,174,Supermini,France
+Renault,8 Gordini 1300,1966,170,Super Sedan,France
+Renault,Clio 1.5 dCi 75,2010,164,Supermini,France
+Renault,8 Gordini 1100,1964,160,Super Sedan,France
+Ineos,Grenadier Station Wagon 3.0,2022,159,4x4,United Kingdom
+Suzuki,X90,1996,156,4x4,Japan
+Renault,Kwid 1.0 SCe 70,2015,135,C.U.V.,France
+Hindustan,Ambassador,2006,105,Sedan,India
+Tata,Nano,2007,105,Microcar,India
+Citroën,Ami,2020,45,Microcar,France
+Mercedes-Benz,Patent-Motorwagen,1886,16,Microcar,Germany
