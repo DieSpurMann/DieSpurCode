@@ -6,6 +6,11 @@
             "command": "cc \"${file}\" -Wall -o \"${fileDirname}/${fileBasenameNoExtension}.exe\" && \"${fileDirname}/${fileBasenameNoExtension}.exe\" && rm \"${fileDirname}/${fileBasenameNoExtension}.exe\""
         },
         {
+            "label": "Run Haskell file",
+            "type": "shell",
+            "command": "runhaskell \"${fileDirname}/${fileBasename}\""
+        },
+        {
             "label": "Run JavaScript file",
             "type": "shell",
             "command": "node \"${fileDirname}/${fileBasename}\""
