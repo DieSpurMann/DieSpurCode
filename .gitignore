@@ -2,5 +2,6 @@ Ruby/doc
 Python/_pycache_
 Python/diespurpython
 node_modules
-*.yml
+*.conf
 mongo-data
+docker-compose.yml

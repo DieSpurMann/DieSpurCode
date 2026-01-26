@@ -1,0 +1,20 @@
+name: Detailed Language Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}] # Runs every day at midnight
+  push: {branches: ["master", "main"]} # Runs on every push
+  workflow_dispatch: # Allows you to run it manually for testing
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: repo_metrics.svg # The name of the image generated
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: "" # Important: hides your general profile stats
+          template: repository
+          repo: ${{ github.event.repository.name }}
+          plugin_languages: yes
+          plugin_languages_limit: 10000 # Set higher than 12 to be safe
+          plugin_languages_details: bytes, percentage
