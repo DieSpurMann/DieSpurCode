@@ -4,16 +4,16 @@
 
 | Language | % | Bytes |
 | :--- | :--- | :--- |
-| <span style="color:#DA5B0B">●</span> **Jupyter Notebook** | 30.67% | 14047 B |
-| <span style="color:#336791">●</span> **PLpgSQL** | 23.57% | 10796 B |
-| <span style="color:#3572A5">●</span> **Python** | 18.73% | 8580 B |
-| <span style="color:#701516">●</span> **Ruby** | 11.71% | 5362 B |
-| <span style="color:#3178c6">●</span> **TypeScript** | 4.68% | 2143 B |
-| <span style="color:#f1e05a">●</span> **JavaScript** | 4.39% | 2010 B |
-| <span style="color:#e34c26">●</span> **HTML** | 2.39% | 1095 B |
-| <span style="color:#000080">●</span> **Lua** | 2.05% | 939 B |
-| <span style="color:#5e5086">●</span> **Haskell** | 0.95% | 435 B |
-| <span style="color:#dea584">●</span> **Rust** | 0.40% | 181 B |
-| <span style="color:#b07219">●</span> **Java** | 0.25% | 116 B |
-| <span style="color:#555555">●</span> **C** | 0.22% | 100 B |
+| <kbd>●</kbd> **Jupyter Notebook** | 30.49% | 14047 B |
+| <kbd>●</kbd> **PLpgSQL** | 23.43% | 10796 B |
+| <kbd>●</kbd> **Python** | 18.62% | 8580 B |
+| <kbd>●</kbd> **Ruby** | 11.64% | 5362 B |
+| <kbd>●</kbd> **JavaScript** | 4.94% | 2274 B |
+| <kbd>●</kbd> **TypeScript** | 4.65% | 2143 B |
+| <kbd>●</kbd> **HTML** | 2.38% | 1095 B |
+| <kbd>●</kbd> **Lua** | 2.04% | 939 B |
+| <kbd>●</kbd> **Haskell** | 0.94% | 435 B |
+| <kbd>●</kbd> **Rust** | 0.39% | 181 B |
+| <kbd>●</kbd> **Java** | 0.25% | 116 B |
+| <kbd>●</kbd> **C** | 0.22% | 100 B |
 
