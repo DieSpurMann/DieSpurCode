@@ -1,3 +1,6 @@
 Ruby/doc
 Python/_pycache_
 Python/diespurpython
+node_modules
+*.yml
+mongo-data
