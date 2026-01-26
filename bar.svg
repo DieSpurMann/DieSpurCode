@@ -1,3 +1,44 @@
-<svg width="600" height="20" viewBox="0 0 600 20" xmlns="http://www.w3.org/2000/svg" style="border-radius: 4px;">
-    <rect x="0" y="0" width="184.00576368876082" height="20" fill="#DA5B0B" /><rect x="184.00576368876082" y="0" width="141.41996332198062" height="20" fill="#336791" /><rect x="325.4257270107414" y="0" width="112.39193083573488" height="20" fill="#3572A5" /><rect x="437.8176578464763" y="0" width="70.23840712601519" height="20" fill="#701516" /><rect x="508.0560649724915" y="0" width="28.07178412365732" height="20" fill="#3178c6" /><rect x="536.1278490961488" y="0" width="26.32957820277705" height="20" fill="#f1e05a" /><rect x="562.4574272989258" y="0" width="14.343725438826302" height="20" fill="#e34c26" /><rect x="576.8011527377521" y="0" width="12.30023578726749" height="20" fill="#000080" /><rect x="589.1013885250196" y="0" width="5.698192297615929" height="20" fill="#5e5086" /><rect x="594.7995808226356" y="0" width="2.3709719675137544" height="20" fill="#dea584" /><rect x="597.1705527901494" y="0" width="1.5195179460309145" height="20" fill="#b07219" /><rect x="598.6900707361802" y="0" width="1.309929263819754" height="20" fill="#555555" />
+<svg width="600" height="20" viewBox="0 0 600 20" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="round-corner">
+      <rect x="0" y="0" width="600" height="20" rx="5" ry="5" />
+    </clipPath>
+    <g clip-path="url(#round-corner)">
+      
+      <rect x="0" y="0" width="182.9512893982808" height="20" fill="#DA5B0B">
+        <title>Jupyter Notebook: 30.49% (14047 bytes)</title>
+      </rect>
+      <rect x="182.9512893982808" y="0" width="140.6095337327429" height="20" fill="#336791">
+        <title>PLpgSQL: 23.43% (10796 bytes)</title>
+      </rect>
+      <rect x="323.5608231310237" y="0" width="111.74785100286532" height="20" fill="#3572A5">
+        <title>Python: 18.62% (8580 bytes)</title>
+      </rect>
+      <rect x="435.30867413388904" y="0" width="69.83589476426152" height="20" fill="#701516">
+        <title>Ruby: 11.64% (5362 bytes)</title>
+      </rect>
+      <rect x="505.14456889815057" y="0" width="29.617087783276897" height="20" fill="#f1e05a">
+        <title>JavaScript: 4.94% (2274 bytes)</title>
+      </rect>
+      <rect x="534.7616566814274" y="0" width="27.910914300599114" height="20" fill="#3178c6">
+        <title>TypeScript: 4.65% (2143 bytes)</title>
+      </rect>
+      <rect x="562.6725709820265" y="0" width="14.261526439176869" height="20" fill="#e34c26">
+        <title>HTML: 2.38% (1095 bytes)</title>
+      </rect>
+      <rect x="576.9340974212034" y="0" width="12.229747330033863" height="20" fill="#000080">
+        <title>Lua: 2.04% (939 bytes)</title>
+      </rect>
+      <rect x="589.1638447512373" y="0" width="5.66553790049492" height="20" fill="#5e5086">
+        <title>Haskell: 0.94% (435 bytes)</title>
+      </rect>
+      <rect x="594.8293826517322" y="0" width="2.3573847356082314" height="20" fill="#dea584">
+        <title>Rust: 0.39% (181 bytes)</title>
+      </rect>
+      <rect x="597.1867673873404" y="0" width="1.5108101067986455" height="20" fill="#b07219">
+        <title>Java: 0.25% (116 bytes)</title>
+      </rect>
+      <rect x="598.6975774941391" y="0" width="1.3024225058609011" height="20" fill="#555555">
+        <title>C: 0.22% (100 bytes)</title>
+      </rect>
+    </g>
   </svg>
