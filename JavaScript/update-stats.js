@@ -4,7 +4,6 @@ const fs = require("fs");
 const octokit = new Octokit();
 const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
 
-// Standard colors for your specific languages
 const colors = {
   "PLpgSQL": "#336791", "Jupyter Notebook": "#DA5B0B", "Python": "#3572A5",
   "Ruby": "#701516", "TypeScript": "#3178c6", "HTML": "#e34c26",
@@ -18,32 +17,39 @@ async function run() {
   });
 
   const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
+  const width = 600; // Total width of the SVG
+  const height = 20;
   
-  // 1. Build the HTML Bar
-  let barHtml = '<div style="display: flex; width: 100%; height: 20px; border-radius: 5px; overflow: hidden; background-color: #ddd;">\n';
-  let legend = "\n\n";
+  let currentX = 0;
+  let svgParts = [];
+  let legend = "\n\n| Language | % | Bytes |\n| :--- | :--- | :--- |\n";
 
   for (const [lang, bytes] of Object.entries(languages)) {
-    const percent = ((bytes / totalBytes) * 100).toFixed(2);
+    const percent = (bytes / totalBytes);
+    const partWidth = width * percent;
     const color = colors[lang] || "#cccccc";
     
-    // Add segment to the bar
-    barHtml += `  <div style="width: ${percent}%; background-color: ${color};" title="${lang}: ${percent}%"></div>\n`;
+    // Add colored rectangle to SVG
+    svgParts.push(`<rect x="${currentX}" y="0" width="${partWidth}" height="${height}" fill="${color}" />`);
     
-    // Add colored dot and text to the legend
-    legend += `<span><kbd>●</kbd> <b>${lang}</b> ${percent}%</span> &nbsp; `;
+    currentX += partWidth;
+    legend += `| <span style="color:${color}">●</span> **${lang}** | ${(percent * 100).toFixed(2)}% | ${bytes} B |\n`;
   }
-  barHtml += '</div>';
 
-  // 2. Update README.md
+  // Wrap in SVG tags
+  const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" style="border-radius: 4px;">
+    ${svgParts.join('')}
+  </svg>`;
+
+  fs.writeFileSync("bar.svg", svg);
+
+  // Update README.md
   let readme = fs.readFileSync("README.md", "utf8");
   const startMarker = "";
   const endMarker = "";
   const regex = new RegExp(`${startMarker}[\\s\\S]*${endMarker}`);
   
-  // Note: GitHub sanitizes some HTML, so we use a table-based fallback for maximum compatibility
-  const finalContent = `${startMarker}\n\n${barHtml}\n${legend}\n\n${endMarker}`;
-  
+  const finalContent = `${startMarker}\n![Language Bar](bar.svg)\n${legend}\n${endMarker}`;
   readme = readme.replace(regex, finalContent);
   fs.writeFileSync("README.md", readme);
 }

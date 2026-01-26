@@ -23,6 +23,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update language statistics" || echo "No changes to commit"
+          git add README.md bar.svg  # Add the SVG file specifically
+          git commit -m "Update SVG language bar" || echo "No changes"
           git push
