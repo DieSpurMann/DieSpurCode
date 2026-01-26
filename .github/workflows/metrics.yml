@@ -16,5 +16,8 @@ jobs:
           template: repository
           repo: ${{ github.event.repository.name }}
           plugin_languages: yes
-          plugin_languages_limit: 10000 # Set higher than 12 to be safe
+          plugin_languages_indepth: yes # Force a full repository scan
           plugin_languages_details: bytes, percentage
+          plugin_languages_limit: 200
+          plugin_languages_threshold: 0% 
+          plugin_languages_sections: most-used
