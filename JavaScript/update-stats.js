@@ -17,36 +17,42 @@ async function run() {
   });
 
   const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
-  const width = 600; 
-  const height = 20;
+  const width = 800; // Wider for better visibility
+  const height = 16;
   
   let currentX = 0;
   let svgParts = [];
-  let legend = "\n\n| Language | % | Bytes |\n| :--- | :--- | :--- |\n";
+  let legend = "\n\n";
 
   for (const [lang, bytes] of Object.entries(languages)) {
     const percent = (bytes / totalBytes);
-    const partWidth = width * percent;
+    const partWidth = Math.max(partWidth, 2); // Ensure even 0.01% is at least 2px wide
     const color = colors[lang] || "#cccccc";
     const percentText = (percent * 100).toFixed(2);
     
-    // The <title> tag provides the hover "tooltip" effect
     svgParts.push(`
-      <rect x="${currentX}" y="0" width="${partWidth}" height="${height}" fill="${color}">
-        <title>${lang}: ${percentText}% (${bytes} bytes)</title>
+      <rect x="${currentX}" y="0" width="${partWidth}" height="${height}" fill="${color}" stroke="#ffffff" stroke-width="0.5">
+        <title>${lang}: ${percentText}%</title>
       </rect>`);
     
     currentX += partWidth;
-    legend += `| <kbd>●</kbd> **${lang}** | ${percentText}% | ${bytes} B |\n`;
+    legend += `<img src="https://img.shields.io/badge/${lang.replace(/ /g, '_')}-${color.replace('#', '')}?style=flat-square&logo=${lang.toLowerCase()}&logoColor=white" /> `;
   }
 
-  // Adding a clipPath to the SVG gives it smooth rounded corners
   const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
-    <clipPath id="round-corner">
-      <rect x="0" y="0" width="${width}" height="${height}" rx="5" ry="5" />
+    <defs>
+      <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="white" stop-opacity="0.2" />
+        <stop offset="50%" stop-color="white" stop-opacity="0" />
+        <stop offset="100%" stop-color="black" stop-opacity="0.1" />
+      </linearGradient>
+    </defs>
+    <clipPath id="round">
+      <rect width="${width}" height="${height}" rx="8" ry="8" />
     </clipPath>
-    <g clip-path="url(#round-corner)">
+    <g clip-path="url(#round)">
       ${svgParts.join('')}
+      <rect width="${width}" height="${height}" fill="url(#shine)" pointer-events="none" />
     </g>
   </svg>`;
 
@@ -57,7 +63,8 @@ async function run() {
   const endMarker = "";
   const regex = new RegExp(`${startMarker}[\\s\\S]*${endMarker}`);
   
-  const finalContent = `${startMarker}\n![Language Bar](bar.svg)\n${legend}\n${endMarker}`;
+  // Legend now uses pretty badges instead of a boring table
+  const finalContent = `${startMarker}\n\n${svg}\n\n${legend}\n\n${endMarker}`;
   readme = readme.replace(regex, finalContent);
   fs.writeFileSync("README.md", readme);
 }
