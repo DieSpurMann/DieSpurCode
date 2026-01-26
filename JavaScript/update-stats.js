@@ -17,7 +17,7 @@ async function run() {
   });
 
   const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
-  const width = 600; // Total width of the SVG
+  const width = 600; 
   const height = 20;
   
   let currentX = 0;
@@ -28,22 +28,30 @@ async function run() {
     const percent = (bytes / totalBytes);
     const partWidth = width * percent;
     const color = colors[lang] || "#cccccc";
+    const percentText = (percent * 100).toFixed(2);
     
-    // Add colored rectangle to SVG
-    svgParts.push(`<rect x="${currentX}" y="0" width="${partWidth}" height="${height}" fill="${color}" />`);
+    // The <title> tag provides the hover "tooltip" effect
+    svgParts.push(`
+      <rect x="${currentX}" y="0" width="${partWidth}" height="${height}" fill="${color}">
+        <title>${lang}: ${percentText}% (${bytes} bytes)</title>
+      </rect>`);
     
     currentX += partWidth;
-    legend += `| <span style="color:${color}">●</span> **${lang}** | ${(percent * 100).toFixed(2)}% | ${bytes} B |\n`;
+    legend += `| <kbd>●</kbd> **${lang}** | ${percentText}% | ${bytes} B |\n`;
   }
 
-  // Wrap in SVG tags
-  const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" style="border-radius: 4px;">
-    ${svgParts.join('')}
+  // Adding a clipPath to the SVG gives it smooth rounded corners
+  const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="round-corner">
+      <rect x="0" y="0" width="${width}" height="${height}" rx="5" ry="5" />
+    </clipPath>
+    <g clip-path="url(#round-corner)">
+      ${svgParts.join('')}
+    </g>
   </svg>`;
 
   fs.writeFileSync("bar.svg", svg);
 
-  // Update README.md
   let readme = fs.readFileSync("README.md", "utf8");
   const startMarker = "";
   const endMarker = "";
