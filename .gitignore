@@ -5,3 +5,4 @@ node_modules
 *.conf
 mongo-data
 docker-compose.yml
+*.log
