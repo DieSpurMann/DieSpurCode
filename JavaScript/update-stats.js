@@ -68,6 +68,7 @@ async function run() {
   </svg>`;
 
   // 4. Write the files
+  // 4. Write the SVG file separately
   fs.writeFileSync("bar.svg", svg);
 
   let readme = fs.readFileSync("README.md", "utf8");
@@ -75,7 +76,9 @@ async function run() {
   const endMarker = "";
   const regex = new RegExp(`${startMarker}[\\s\\S]*${endMarker}`);
   
-  const finalContent = `${startMarker}\n\n${svg}\n\n${legend}\n\n${endMarker}`;
+  // We point the README to the file, not the raw code
+  const finalContent = `${startMarker}\n\n![Language Bar](bar.svg)\n\n${legend}\n\n${endMarker}`;
+  
   readme = readme.replace(regex, finalContent);
   fs.writeFileSync("README.md", readme);
 }
