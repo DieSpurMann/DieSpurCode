@@ -1,2 +1,2 @@
 # DieSpurCode
-![DieSpurMann's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DieSpurMann&layout=compact&langs_count=12)
+![Repo Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=DieSpurMann&repo=DieSpurCode&layout=compact&langs_count=12)
