@@ -4,7 +4,6 @@ const fs = require("fs");
 const octokit = new Octokit();
 const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
 
-// Defined colors to ensure your languages look professional
 const colors = {
   "PLpgSQL": "#336791", "Jupyter Notebook": "#DA5B0B", "Python": "#3572A5",
   "Ruby": "#701516", "TypeScript": "#3178c6", "HTML": "#e34c26",
@@ -13,43 +12,50 @@ const colors = {
 };
 
 async function run() {
-  // 1. Fetch language data from GitHub API
   const { data: languages } = await octokit.request("GET /repos/{owner}/{repo}/languages", {
     owner, repo
   });
 
   const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
-  const width = 800; // SVG Width
-  const height = 20; // SVG Height
+  const width = 800; 
+  const height = 20;
   
   let currentX = 0;
   let svgParts = [];
-  let legend = "\n\n";
+  
+  // Initialize the table header
+  let legend = "\n\n| Language | Percentage | Size |\n| :--- | :--- | :--- |\n";
 
-  // 2. Build SVG segments and Legend
   for (const [lang, bytes] of Object.entries(languages)) {
     const percent = (bytes / totalBytes);
+    // 1. Calculate Widths
     const rawWidth = width * percent;
-    const partWidth = Math.max(rawWidth, 2); // Minimum 2px so tiny langs are visible
+    const partWidth = Math.max(rawWidth, 2); // Minimum 2px visibility rule
     
     const color = colors[lang] || "#cccccc";
     const percentText = (percent * 100).toFixed(2);
     
-    // SVG Rectangle with hover <title>
+    // 2. Build SVG Rect (The visual bar)
     svgParts.push(`
       <rect x="${currentX}" y="0" width="${partWidth}" height="${height}" fill="${color}" stroke="#ffffff" stroke-width="0.5">
-        <title>${lang}: ${percentText}% (${bytes} bytes)</title>
+        <title>${lang}: ${percentText}% (${bytes.toLocaleString()} bytes)</title>
       </rect>`);
     
     currentX += partWidth;
 
-    // Generate badge for the legend
-    const badgeLang = encodeURIComponent(lang);
-    const badgeColor = color.replace('#', '');
-    legend += `<img src="https://img.shields.io/badge/${badgeLang}-${badgeColor}?style=flat-square&logo=${badgeLang.toLowerCase()}&logoColor=white" /> `;
+    // 3. Build Table Row with Badge (The data list)
+    // We encode the names to handle spaces safely in the URL
+    const safeName = encodeURIComponent(lang);
+    const safeColor = color.replace('#', '');
+    
+    // Create the badge image
+    const badge = `<img src="https://img.shields.io/badge/${safeName}-${safeColor}?style=flat-square&logo=${encodeURIComponent(lang.toLowerCase())}&logoColor=white" />`;
+    
+    // Add row to table: | Badge | % | Bytes |
+    legend += `| ${badge} | ${percentText}% | ${bytes.toLocaleString()} B |\n`;
   }
 
-  // 3. Assemble the SVG with rounded corners and a "glass" shine
+  // 4. Construct the SVG
   const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
@@ -59,7 +65,7 @@ async function run() {
       </linearGradient>
     </defs>
     <clipPath id="round">
-      <rect width="${width}" height="${height}" rx="10" ry="10" />
+      <rect width="${width}" height="${height}" rx="6" ry="6" />
     </clipPath>
     <g clip-path="url(#round)">
       ${svgParts.join('')}
@@ -67,17 +73,17 @@ async function run() {
     </g>
   </svg>`;
 
-  // 4. Write the files
-  // 4. Write the SVG file separately
+  // 5. Save SVG file
   fs.writeFileSync("bar.svg", svg);
 
+  // 6. Update README
   let readme = fs.readFileSync("README.md", "utf8");
   const startMarker = "";
   const endMarker = "";
   const regex = new RegExp(`${startMarker}[\\s\\S]*${endMarker}`);
   
-  // We point the README to the file, not the raw code
-  const finalContent = `${startMarker}\n\n![Language Bar](bar.svg)\n\n${legend}\n\n${endMarker}`;
+  // Combine: Start Tag + Image Link + Table Legend + End Tag
+  const finalContent = `${startMarker}\n\n![Language Bar](bar.svg)\n${legend}\n${endMarker}`;
   
   readme = readme.replace(regex, finalContent);
   fs.writeFileSync("README.md", readme);
