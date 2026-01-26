@@ -1,23 +1,28 @@
-name: Detailed Language Metrics
+name: Update Language Stats
 on:
-  schedule: [{cron: "0 0 * * *"}] # Runs every day at midnight
-  push: {branches: ["master", "main"]} # Runs on every push
-  workflow_dispatch: # Allows you to run it manually for testing
-
+  push:
+    branches: [main, master]
 jobs:
-  github-metrics:
+  update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          filename: repo_metrics.svg # The name of the image generated
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: "" # Important: hides your general profile stats
-          template: repository
-          repo: ${{ github.event.repository.name }}
-          plugin_languages: yes
-          plugin_languages_indepth: yes # Force a full repository scan
-          plugin_languages_details: bytes, percentage
-          plugin_languages_limit: 200
-          plugin_languages_threshold: 0% 
-          plugin_languages_sections: most-used
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install @octokit/action
+      - name: Run update script
+        run: node JavaScript/update-stats.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update language statistics" || echo "No changes to commit"
+          git push
