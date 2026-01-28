@@ -1,0 +1,26 @@
+{
+    "manufacturer": "Lancia",
+    "origin": "Italy",
+    "model": "Rally 037 Stradale (Tipo 151)",
+    "start-year": "1982",
+    "end-year": "1983",
+    "body-type": "Coupé",
+    "class": "Sports Cars",
+    "image-link": "https://i.ibb.co/qL5hmgdj/Lancia-Rally-037-Stradale-Tipo-151-039-1982.jpg",
+    "engine": {
+        "name": "",
+        "cylinder-layout": "I4",
+        "engine-layout": "Rear Mid-Mounted",
+        "energy": "Petrol",
+        "aspiration": "Supercharged",
+        "displacement": "1995 cc",
+        "power": "205 hp",
+        "torque":"225 N-m"
+    },
+    "transmission": "RWD",
+    "gearbox": "5 speed",
+    "gearbox-type": "manual",
+    "weight": "1163 kg",
+    "0-100-km/h": "5.7 s",
+    "top-speed": "229 km/h"
+}

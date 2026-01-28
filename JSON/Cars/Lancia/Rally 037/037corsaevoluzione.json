@@ -1,0 +1,26 @@
+{
+    "manufacturer": "Lancia",
+    "origin": "Italy",
+    "model": "Rally 037 Corsa Evoluzione (SE037)",
+    "start-year": "1984",
+    "end-year": "1986",
+    "body-type": "Coupé",
+    "class": "Rally Monsters",
+    "image-link": "https://i.ibb.co/NdLsMpw4/Lancia-Rally-037-Corsa-Evo-2-SE037-039-1984.jpg",
+    "engine": {
+        "name": "Lampredi 2.1-litre",
+        "cylinder-layout": "I4",
+        "engine-layout": "Rear Mid-Mounted",
+        "energy": "Petrol",
+        "aspiration": "Supercharged",
+        "displacement": "2111 cc",
+        "power": "325 hp",
+        "torque":"333 N-m"
+    },
+    "transmission": "RWD",
+    "gearbox": "5 speed",
+    "gearbox-type": "manual",
+    "weight": "960 kg",
+    "0-100-km/h": "",
+    "top-speed": ""
+}

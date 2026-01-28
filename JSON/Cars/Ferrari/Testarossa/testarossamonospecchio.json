@@ -1,0 +1,26 @@
+{
+    "manufacturer": "Ferrari",
+    "origin": "Italy",
+    "model": "Testarossa",
+    "start-year": "1984",
+    "end-year": "1986",
+    "body-type": "Coupé",
+    "class": "Supercar",
+    "image-link": "https://i.ibb.co/8Dhpt04g/Ferrari-Testarossa-039-1984.jpg",
+    "engine": {
+        "name": "Tipo F113A",
+        "cylinder-layout": "F12",
+        "engine-layout": "MR",
+        "energy": "Petrol",
+        "aspiration": "Naturally Aspirated",
+        "displacement": "4942",
+        "power": "390 hp",
+        "torque":"490 N-m"
+    },
+    "transmission": "RWD",
+    "gearbox": "5 speed",
+    "gearbox-type": "manual",
+    "weight": "1630 kg",
+    "0-100-km/h": "5.8 s",
+    "top-speed": "290 km/h"
+}

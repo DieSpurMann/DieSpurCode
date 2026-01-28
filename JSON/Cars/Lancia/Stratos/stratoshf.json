@@ -1,0 +1,26 @@
+{
+    "manufacturer": "Lancia",
+    "origin": "Italy",
+    "model": "Stratos HF",
+    "start-year": "1973",
+    "end-year": "1975",
+    "body-type": "Coupé",
+    "class": "Sports Cars",
+    "image-link": "https://i.ibb.co/jPxYLRjY/Lancia-Rally-037-Corsa-SE037-039-1982.jpg",
+    "engine": {
+        "name": "Lampredi 2.0-litre",
+        "cylinder-layout": "I4",
+        "engine-layout": "Rear Mid-Mounted",
+        "energy": "Petrol",
+        "aspiration": "Supercharged",
+        "displacement": "1995 cc",
+        "power": "280 hp",
+        "torque":"299 N-m"
+    },
+    "transmission": "RWD",
+    "gearbox": "5 speed",
+    "gearbox-type": "manual",
+    "weight": "960 kg",
+    "0-100-km/h": "",
+    "top-speed": ""
+}

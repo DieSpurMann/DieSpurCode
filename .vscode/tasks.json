@@ -23,7 +23,7 @@
         {
             "label": "Run Python file",
             "type": "shell",
-            "command": "${fileDirname}/diespurpython/bin/python3.12 ${fileDirname}/${fileBasename}"
+            "command": "./.venv/bin/python3.12 ${fileDirname}/${fileBasename}"
         },
         {
             "label": "Run Ruby file",
