@@ -1,0 +1,5 @@
+splitAt2::Int-> [a] -> ([a],[a])
+splitAt2 n (x:xs)
+    | n <= 0 = ([], x:xs)
+    | otherwise = (x:fst(splitAt2 (n-1) xs), snd(splitAt2 (n-1) xs))
+splitAt2 _ [] = ([], [])
