@@ -1,0 +1,102 @@
+---
+title: Duck Design Pattern
+---
+
+classDiagram
+    class Cancaneur {
+        <<Interface>>
+        +cancaner()
+    }
+    
+    class FabriqueAbstraite {
+        <<Interface>>
+        +creerColvert()
+	    +creerCanardEnPlastique()	
+	    +creerMandarin()
+	    +creerAppeau()
+    }
+
+    class FabriqueACanard {
+        +creerColvert():Cancaneur
+	    +creerCanardEnPlastique():Cancaneur	
+	    +creerMandarin():Cancaneur
+	    +creerAppeau():Cancaneur
+    }
+
+    class FabriqueCompteur {
+        +creerColvert():Cancaneur
+	    +creerCanardEnPlastique():Cancaneur	
+	    +creerMandarin():Cancaneur
+	    +creerAppeau():Cancaneur
+    }
+
+    class Colvert {
+        +cancaner()
+    }
+
+    class CanardEnPlastique {
+        +cancaner()
+    }
+
+    class Appeau {
+        +cancaner()
+    }
+
+    class Mandarin {
+        +cancaner()
+    }
+
+    class Oie {
+        +cacarder()
+    }
+
+    class OieAdapte {
+        -Oie oie
+        +cancaner()
+    }
+
+    class CompteurDeCancans {
+        +int nbCancan
+        -Cancaneur cancan
+        +cancaner()
+    }
+
+    class Begue {
+        -Cancaneur cancan
+        +getNbCancan():Integer
+        +cancaner()
+    }
+
+    class Simulateur {
+        +main(args : String[])$
+        +simuler()
+        +simuler(c : Cancaneur)
+    }
+
+    class Troupe {
+        +List<Cancaneur> membres
+        +cancaner()
+        +ajouterMembres():Troupe
+    }
+
+    Colvert ..|> Cancaneur
+    CanardEnPlastique ..|> Cancaneur
+    Appeau ..|> Cancaneur
+    Mandarin ..|> Cancaneur
+
+    OieAdapte ..|> Cancaneur
+    OieAdapte --> Oie : possède/adapte
+
+    CompteurDeCancans ..|> Cancaneur
+    CompteurDeCancans o--> Cancaneur : décore
+    Begue ..|> Cancaneur
+    Begue o--> Cancaneur : décore
+
+    FabriqueACanard ..|> FabriqueAbstraite
+    FabriqueCompteur ..|> FabriqueAbstraite
+
+    Simulateur ..> Cancaneur : utilise
+    Simulateur ..> FabriqueAbstraite : utilise
+
+    Cancaneur --* Troupe
+    Troupe ..|> Cancaneur
