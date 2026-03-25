@@ -1,4 +1,4 @@
-package GameOfLife.app.src.main.java.org.gameoflife;
+package org.gameoflife;
 
 public interface Observer {
     void refresh();

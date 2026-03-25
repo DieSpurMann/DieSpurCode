@@ -32,5 +32,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "GameOfLife.app.src.main.java.org.gameoflife.Maine"
+    mainClass = "org.gameoflife.Maine"
 }

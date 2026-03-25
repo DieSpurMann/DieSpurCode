@@ -1,4 +1,4 @@
-package GameOfLife.app.src.main.java.org.gameoflife;
+package org.gameoflife;
 
 public class DeadCell implements CellState {
 
@@ -20,5 +20,10 @@ public class DeadCell implements CellState {
 
     public static DeadCell getInstance() {
         return instance;
+    }
+
+    @Override
+    public void accept(Visitor visitor, Cell cell) {
+        visitor.visitDeadCell(cell);
     }
 }

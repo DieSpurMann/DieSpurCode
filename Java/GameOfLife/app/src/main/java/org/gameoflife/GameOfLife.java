@@ -1,16 +1,20 @@
-package GameOfLife.app.src.main.java.org.gameoflife;
+package org.gameoflife;
 
 import java.util.*;
 
 public class GameOfLife implements Subject {
     public Cell[][] board;
-    private int maxX = 3;
-    private int maxY = 3;
+    private int maxX = 1000;
+    private int maxY = 1000;
     private List<Observer> observers;
+    private List<Command> commands;
+    private Visitor visitor;
 
     public GameOfLife () {
         this.observers = new ArrayList<>();
+        this.commands = new ArrayList<>();
         this.board = new Cell[this.maxX][this.maxY];
+        this.visitor = new ClassicVisitor(this);
     }
 
     public int getXmax() {
@@ -19,6 +23,17 @@ public class GameOfLife implements Subject {
 
     public int getYmax() {
         return this.maxY;
+    }
+
+    public void addCommands(Command command) {
+        commands.add(command);
+    }
+
+    public void executeCommands() {
+        for(Command c: commands) {
+            c.execute();
+        }
+        commands.clear();
     }
 
     public void initializeBoard() {
@@ -55,5 +70,19 @@ public class GameOfLife implements Subject {
     @Override
     public void registerObserver(Observer observer) {
         observers.add(observer);
+    }
+
+    public void distributeVisitor() {
+        for (int x = 0; x < this.maxX; x++) {
+            for (int y = 0; y < this.maxY; y++) {
+                this.board[x][y].accept(this.visitor);
+            }
+        }
+    }
+
+    public void calculateNextGeneration() {
+        distributeVisitor();
+        executeCommands();
+        notifyObservers();
     }
 }

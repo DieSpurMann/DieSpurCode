@@ -1,4 +1,4 @@
-package GameOfLife.app.src.main.java.org.gameoflife;
+package org.gameoflife;
 
 public class AliveCell implements CellState {
     private static AliveCell instance = new AliveCell();
@@ -21,4 +21,8 @@ public class AliveCell implements CellState {
         return instance;
     }
     
+    @Override
+    public void accept(Visitor visitor, Cell cell) {
+        visitor.visitAliveCell(cell);
+    }
 }

@@ -1,4 +1,4 @@
-package GameOfLife.app.src.main.java.org.gameoflife;
+package org.gameoflife;
 
 public class Cell {
     private CellState state;
@@ -29,6 +29,10 @@ public class Cell {
 
     public void dead() {
         state = state.dead();
+    }
+
+    public void accept(Visitor visitor) {
+        state.accept(visitor, this);
     }
 
     public int getNumberOfAliveNeighbours(GameOfLife game) {

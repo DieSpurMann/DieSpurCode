@@ -1,14 +1,7 @@
-package GameOfLife.app.src.main.java.org.gameoflife;
+package org.gameoflife;
 
-public class Command {
-    private Cell cell;
-
-    void execute() {
-        if (cell.isAlive()) {
-            cell.dead();
-        } else {
-            cell.alive();
-        }
-    }
+public abstract class Command {
+    protected Cell cell;
+    public abstract void execute();
     
 }
