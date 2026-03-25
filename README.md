@@ -5,17 +5,17 @@
 
 | Language | Percentage | Size |
 | :--- | :--- | :--- |
-| <img src="https://img.shields.io/badge/Haskell-5e5086?style=flat-square&logo=haskell&logoColor=white" /> | 20.46% | 15,087 B |
-| <img src="https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter%20notebook&logoColor=white" /> | 19.05% | 14,047 B |
-| <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" /> | 16.08% | 11,853 B |
-| <img src="https://img.shields.io/badge/PLpgSQL-336791?style=flat-square&logo=plpgsql&logoColor=white" /> | 14.64% | 10,796 B |
-| <img src="https://img.shields.io/badge/Java-b07219?style=flat-square&logo=java&logoColor=white" /> | 9.17% | 6,759 B |
-| <img src="https://img.shields.io/badge/Ruby-701516?style=flat-square&logo=ruby&logoColor=white" /> | 7.27% | 5,362 B |
-| <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=white" /> | 4.66% | 3,434 B |
-| <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" /> | 2.91% | 2,143 B |
-| <img src="https://img.shields.io/badge/Mermaid-cccccc?style=flat-square&logo=mermaid&logoColor=white" /> | 2.61% | 1,926 B |
-| <img src="https://img.shields.io/badge/HTML-e34c26?style=flat-square&logo=html&logoColor=white" /> | 1.49% | 1,095 B |
-| <img src="https://img.shields.io/badge/Lua-000080?style=flat-square&logo=lua&logoColor=white" /> | 1.27% | 939 B |
-| <img src="https://img.shields.io/badge/Rust-dea584?style=flat-square&logo=rust&logoColor=white" /> | 0.25% | 181 B |
-| <img src="https://img.shields.io/badge/C-555555?style=flat-square&logo=c&logoColor=white" /> | 0.14% | 100 B |
+| <img src="https://img.shields.io/badge/HTML-e34c26?style=flat-square&logo=html&logoColor=white" /> | 50.55% | 896,168 B |
+| <img src="https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter%20notebook&logoColor=white" /> | 45.47% | 806,180 B |
+| <img src="https://img.shields.io/badge/Haskell-5e5086?style=flat-square&logo=haskell&logoColor=white" /> | 1.13% | 20,044 B |
+| <img src="https://img.shields.io/badge/Java-b07219?style=flat-square&logo=java&logoColor=white" /> | 0.77% | 13,684 B |
+| <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" /> | 0.67% | 11,853 B |
+| <img src="https://img.shields.io/badge/PLpgSQL-336791?style=flat-square&logo=plpgsql&logoColor=white" /> | 0.61% | 10,796 B |
+| <img src="https://img.shields.io/badge/Ruby-701516?style=flat-square&logo=ruby&logoColor=white" /> | 0.30% | 5,362 B |
+| <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=white" /> | 0.19% | 3,434 B |
+| <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" /> | 0.12% | 2,143 B |
+| <img src="https://img.shields.io/badge/Mermaid-cccccc?style=flat-square&logo=mermaid&logoColor=white" /> | 0.11% | 1,926 B |
+| <img src="https://img.shields.io/badge/Lua-000080?style=flat-square&logo=lua&logoColor=white" /> | 0.05% | 939 B |
+| <img src="https://img.shields.io/badge/Rust-dea584?style=flat-square&logo=rust&logoColor=white" /> | 0.01% | 181 B |
+| <img src="https://img.shields.io/badge/C-555555?style=flat-square&logo=c&logoColor=white" /> | 0.01% | 100 B |
 
