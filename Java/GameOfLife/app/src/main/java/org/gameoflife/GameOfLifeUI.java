@@ -5,8 +5,14 @@ import java.awt.event.*;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.Point2D;
+
+import javax.swing.AbstractAction;
+import javax.swing.ActionMap;
 import javax.swing.ImageIcon;
+import javax.swing.InputMap;
+import javax.swing.JComponent;
 import javax.swing.JPanel;
+import javax.swing.KeyStroke;
 
 public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener, MouseMotionListener, MouseListener {
     private GameOfLife game;
@@ -31,8 +37,23 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
         this.addMouseWheelListener(this);
         this.addMouseMotionListener(this);
         this.addMouseListener(this);
+        // On récupère l'InputMap du composant principal (par exemple le JPanel de la grille)
+        InputMap im = this.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW);
+        ActionMap am = this.getActionMap();
+
+        // On lie la touche "SPACE" à un identifiant textuel
+        im.put(KeyStroke.getKeyStroke("SPACE"), "pauseAction");
+
+        // On définit l'action correspondant à cet identifiant
+        am.put("pauseAction", new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                toggleSimulation();
+            }
+        });
     }
 
+    
     @Override
     public void refresh() {
         repaint();
@@ -73,7 +94,7 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
             int endX = Math.min(game.getXmax(), (int) Math.ceil(bottomRight.x));
             int endY = Math.min(game.getYmax(), (int) Math.ceil(bottomRight.y));
 
-            g2.setColor(Color.decode("#0c4f3d"));
+            g2.setColor(Color.decode("#dc3700"));
             
             // On dessine directement avec les vraies coordonnées (1x1), le moteur graphique gère le zoom tout seul !
             for (int x = startX; x < endX; x++) {
@@ -91,7 +112,10 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
         g2.dispose(); // Libération des ressources graphiques
     }
 
-    // --- CONTRÔLES SOURIS OPTIMISÉS ---
+    private void toggleSimulation() {
+        System.out.println("Touche Espace pressée : Pause/Lecture");
+        this.game.modifyPause(); 
+    }
 
     @Override
     public void mouseWheelMoved(MouseWheelEvent e) {

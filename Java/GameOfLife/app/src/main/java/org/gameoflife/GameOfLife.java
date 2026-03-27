@@ -9,12 +9,14 @@ public class GameOfLife implements Subject {
     private List<Observer> observers;
     private List<Command> commands;
     private Visitor visitor;
+    private boolean pause;
 
     public GameOfLife () {
         this.observers = new ArrayList<>();
         this.commands = new ArrayList<>();
         this.board = new Cell[this.maxX][this.maxY];
         this.visitor = new ClassicVisitor(this);
+        this.pause = false;
     }
 
     public int getXmax() {
@@ -55,6 +57,11 @@ public class GameOfLife implements Subject {
         return this.board[x][y];
     }
 
+    public void modifyPause() {
+        this.pause = !this.pause;
+        System.out.println(this.pause);
+    }
+
     @Override
     public void removeObserver(Observer observer) {
         observers.remove(observer);
@@ -81,8 +88,10 @@ public class GameOfLife implements Subject {
     }
 
     public void calculateNextGeneration() {
-        distributeVisitor();
-        executeCommands();
-        notifyObservers();
+        if (!this.pause) {
+            executeCommands();
+            distributeVisitor();
+            notifyObservers();
+        }
     }
 }

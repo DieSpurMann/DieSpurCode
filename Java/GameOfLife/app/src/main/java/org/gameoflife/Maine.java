@@ -8,7 +8,6 @@ public class Maine {
     public static void main(String[] args) {
         // 1. Instancier le modèle (le Sujet Observable)
         GameOfLife jeu = new GameOfLife(); 
-
         // 2. Instancier la vue (l'Observateur) en lui passant le jeu
         GameOfLifeUI gui = new GameOfLifeUI(jeu);
         LogObserver logs = new LogObserver(jeu);
@@ -26,13 +25,15 @@ public class Maine {
         frame.setVisible(true);
         frame.setBackground(Color.BLACK);
 
-        // 5. TEST : Simuler une évolution pour voir si l'UI réagit
-        // Dans une vraie boucle de jeu, tu appellerais une méthode du modèle
-        // qui elle-même appelle notifieObservateurs()
         System.out.println("Lancement de la simulation...");
         
-       while(true) {
+        while(true) {
             jeu.calculateNextGeneration(); 
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
