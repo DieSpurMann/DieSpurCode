@@ -5,18 +5,21 @@ import java.awt.*;
 
 public class ControlPanel extends JPanel implements Observer {
     private GameOfLife game;
+    private GameOfLifeUI ui;
     private JButton playBtn;
 
-    public ControlPanel(GameOfLife game, Maine mainApp) {
+    public ControlPanel(GameOfLife game, GameOfLifeUI ui, Maine mainapp) {
         this.game = game;
-        this.setLayout(new FlowLayout());
+        this.ui = ui;
+        this.setLayout(new FlowLayout(FlowLayout.CENTER, 15, 10));
+        this.setBackground(new Color(20, 20, 20)); // Fond sombre circuit
 
-        // Bouton Play/Pause
-        playBtn = new JButton("Play");
+        // Bouton PLAY/PAUSE
+        playBtn = createStyledButton("START");
         playBtn.addActionListener(e -> game.modifyPause());
 
-        // Bouton Suivant
-        JButton nextBtn = new JButton("Suivant >");
+        // Bouton NEXT LAP
+        JButton nextBtn = createStyledButton("NEXT LAP >");
         nextBtn.addActionListener(e -> {
             if (game.isPaused()) {
                 game.executeCommands();
@@ -27,34 +30,38 @@ public class ControlPanel extends JPanel implements Observer {
 
         // Slider Vitesse
         JSlider slider = new JSlider(10, 1000, 100);
-        slider.addChangeListener(e -> mainApp.setDelay(slider.getValue()));
+        slider.setBackground(new Color(20, 20, 20));
+        slider.addChangeListener(e -> mainapp.setDelay(slider.getValue()));
+
+        // Sélecteur de Thèmes
+        String[] themes = {"Nordschleife", "Soviet", "Chornobyl"};
+        JComboBox<String> themeBox = new JComboBox<>(themes);
+        themeBox.addActionListener(e -> {
+            String selected = (String) themeBox.getSelectedItem();
+            if ("Nordschleife".equals(selected)) ui.updateTheme("/nurb.jpg");
+            else if ("Soviet".equals(selected)) ui.updateTheme("/soviet-flag.jpg");
+            else if ("Chornobyl".equals(selected)) ui.updateTheme("/chornobyl.jpg");
+        });
 
         this.add(playBtn);
         this.add(nextBtn);
-        this.add(new JLabel(" Vitesse (ms):"));
+        this.add(new JLabel("<html><font color='white'>SPEED:</font></html>"));
         this.add(slider);
+        this.add(new JLabel("<html><font color='white'>THEME:</font></html>"));
+        this.add(themeBox);
+    }
 
-        String[] themes = {"Nordschleife", "Soviet", "Chornobyl"};
-        JComboBox<String> combo = new JComboBox<>(themes);
-            
-        combo.addActionListener(e -> {
-            String selected = (String) combo.getSelectedItem();
-            if (selected.equals("Nordschleife")) {
-                ui.updateTheme("/nurb.jpg"); // Ton fichier Nordschleife
-            } else if (selected.equals("Soviet")) {
-                ui.updateTheme("/soviet-flag.jpg"); // Ton fichier Soviet
-            } else if (selected.equals("Chornobyl")) {
-                ui.updateTheme("/chornobyl.jpg"); // Ton fichier Chornobyl
-            }
-        });
-        
-        this.add(new JLabel("THÈME :"));
-        this.add(combo);
+    private JButton createStyledButton(String text) {
+        JButton b = new JButton(text);
+        b.setBackground(Color.BLACK);
+        b.setForeground(Color.GREEN);
+        b.setBorder(BorderFactory.createLineBorder(Color.GREEN, 1));
+        return b;
     }
 
     @Override
     public void refresh() {
-        // On change le texte du bouton selon l'état du jeu
-        playBtn.setText(game.isPaused() ? "Play" : "Pause");
+        playBtn.setText(game.isPaused() ? "START" : "STOP");
+        playBtn.setForeground(game.isPaused() ? Color.GREEN : Color.RED);
     }
 }

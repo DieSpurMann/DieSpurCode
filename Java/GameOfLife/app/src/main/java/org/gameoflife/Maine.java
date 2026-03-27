@@ -15,7 +15,7 @@ public class Maine {
         LogObserver logs = new LogObserver(jeu);
         
         // On crée notre nouveau panneau de contrôle
-        ControlPanel controls = new ControlPanel(jeu, this);
+        ControlPanel controls = new ControlPanel(jeu, gui, this);
 
         // On enregistre les DEUX comme observateurs
         jeu.registerObserver(gui);

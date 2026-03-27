@@ -70,9 +70,10 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
         ImageIcon icon = new ImageIcon(getClass().getResource(path));
         if (icon.getImageLoadStatus() == MediaTracker.COMPLETE) {
             this.backgroundImage = icon.getImage();
-            repaint(); // Force le rafraîchissement avec la nouvelle image
+            repaint();
         }
     }
+    
     @Override
     public void refresh() {
         repaint();
