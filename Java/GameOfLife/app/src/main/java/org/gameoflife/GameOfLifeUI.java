@@ -1,11 +1,23 @@
 package org.gameoflife;
 
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Image;
+import java.awt.MediaTracker;
+import java.awt.Point;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+import java.awt.event.MouseWheelEvent;
+import java.awt.event.MouseWheelListener;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.Point2D;
+import java.io.IOException;
 
+import javax.imageio.ImageIO;
 import javax.swing.AbstractAction;
 import javax.swing.ActionMap;
 import javax.swing.ImageIcon;
@@ -53,7 +65,14 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
         });
     }
 
-    
+    // Dans GameOfLifeUI.java
+    public void updateTheme(String path) {
+        ImageIcon icon = new ImageIcon(getClass().getResource(path));
+        if (icon.getImageLoadStatus() == MediaTracker.COMPLETE) {
+            this.backgroundImage = icon.getImage();
+            repaint(); // Force le rafraîchissement avec la nouvelle image
+        }
+    }
     @Override
     public void refresh() {
         repaint();

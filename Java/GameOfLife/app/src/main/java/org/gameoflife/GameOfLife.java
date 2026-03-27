@@ -17,6 +17,7 @@ public class GameOfLife implements Subject {
         this.board = new Cell[this.maxX][this.maxY];
         this.visitor = new ClassicVisitor(this);
         this.pause = false;
+        this.initializeBoard();
     }
 
     public int getXmax() {
@@ -25,6 +26,10 @@ public class GameOfLife implements Subject {
 
     public int getYmax() {
         return this.maxY;
+    }
+
+    public boolean isPaused() {
+        return this.pause;
     }
 
     public void addCommands(Command command) {

@@ -23,6 +23,6 @@ public class LogObserver implements Observer {
             }
         }
 
-        System.out.println("Gen number " + generation + " | Fellows alive : " + aliveCount);
+        System.out.println("Gen number " + generation + " | Comrades alive : " + aliveCount);
     }
 }

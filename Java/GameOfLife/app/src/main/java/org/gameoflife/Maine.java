@@ -1,39 +1,45 @@
 package org.gameoflife;
 
-import java.awt.Color;
+import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 
+// Dans Maine.java
 public class Maine {
-    public static void main(String[] args) {
-        // 1. Instancier le modèle (le Sujet Observable)
-        GameOfLife jeu = new GameOfLife(); 
-        // 2. Instancier la vue (l'Observateur) en lui passant le jeu
+    private int delay = 100;
+    public void setDelay(int d) { this.delay = d; }
+
+    public void start() {
+        GameOfLife jeu = new GameOfLife();
         GameOfLifeUI gui = new GameOfLifeUI(jeu);
         LogObserver logs = new LogObserver(jeu);
-        jeu.initializeBoard(); // Initialiser le jeu avec une configuration de départ
+        
+        // On crée notre nouveau panneau de contrôle
+        ControlPanel controls = new ControlPanel(jeu, this);
 
-        // 3. Enregistrer l'UI comme observateur du jeu
+        // On enregistre les DEUX comme observateurs
         jeu.registerObserver(gui);
         jeu.registerObserver(logs);
+        jeu.registerObserver(controls);
 
-        // 4. Créer une fenêtre pour afficher l'interface
-        JFrame frame = new JFrame("Our Game Of Life");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.add(gui); // Ajoute ton JPanel à la fenêtre
-        frame.setSize(500, 500);
-        frame.setVisible(true);
-        frame.setBackground(Color.BLACK);
-
-        System.out.println("Lancement de la simulation...");
+        JFrame frame = new JFrame("Game of Life but it's the Grune Holle");
+        frame.setLayout(new BorderLayout());
         
+        // On les place dans la fenêtre
+        frame.add(controls, BorderLayout.NORTH); // Les boutons en haut
+        frame.add(gui, BorderLayout.CENTER);      // La grille au milieu
+
+        frame.setSize(800, 600);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         while(true) {
-            jeu.calculateNextGeneration(); 
-            try {
-                Thread.sleep(50);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            jeu.calculateNextGeneration();
+            try { Thread.sleep(delay); } catch (InterruptedException e) {}
         }
+    }
+
+    public static void main(String[] args) {
+        new Maine().start();
     }
 }

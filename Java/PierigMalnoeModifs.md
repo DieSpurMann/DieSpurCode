@@ -8,3 +8,13 @@
 
 ## 3. Pause via Spacebar
 <p>Ajout d'une pause via la space bar, pour relancer on peut réappuyer sur la space bar</p>
+
+## 4. Ajout d'un header de settings
+### 4.1. Bouton Pause
+<p>Réutilise la fonctionalité de la space bar mais en bouton où il faut cliquer dessus</p>
+
+### 4.2. Bouton suivant
+<p>Génère la génération suivante lorsqu'on clique dessus</p>
+
+### 4.3. Slider de la vitesse:
+<p>Slider pour changer la vitesse de génération de la plus grande vitesse (à gauche) vers la plus petite (à droite)</p>
