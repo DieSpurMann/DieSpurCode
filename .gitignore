@@ -6,3 +6,5 @@ node_modules
 mongo-data
 docker-compose.yml
 *.log
+*.lock
+*.bin
