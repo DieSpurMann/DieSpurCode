@@ -15,9 +15,6 @@ import java.awt.event.MouseWheelListener;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.Point2D;
-import java.io.IOException;
-
-import javax.imageio.ImageIO;
 import javax.swing.AbstractAction;
 import javax.swing.ActionMap;
 import javax.swing.ImageIcon;
@@ -35,17 +32,19 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
     private double panX = 0.0;
     private double panY = 0.0;
     private Point lastMouse;
+    private Color cellColor = Color.decode("#20202E");
+    private Color bgColor = Color.decode("#AAAAAA");
 
     public GameOfLifeUI(GameOfLife game) {
         this.game = game;
         game.registerObserver(this);
         
-        ImageIcon icon = new ImageIcon(getClass().getResource("/nurb.jpg"));
+        /*ImageIcon icon = new ImageIcon(getClass().getResource("/nurb.jpg"));
         if (icon.getImageLoadStatus() == MediaTracker.COMPLETE) {
             this.backgroundImage = icon.getImage();
-        }
-        this.setBackground(Color.decode("#FF3212"));
-
+        }*/
+        this.setCellColor(Color.decode("#20202E")); // Vert fluo pour l'Enfer Vert
+        this.setBGColor(Color.decode("#FAFAFA"));
         this.addMouseWheelListener(this);
         this.addMouseMotionListener(this);
         this.addMouseListener(this);
@@ -65,15 +64,30 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
         });
     }
 
-    // Dans GameOfLifeUI.java
     public void updateTheme(String path) {
+        if (path == null) {
+            this.backgroundImage = null;
+            repaint();
+            return;
+        }
+
         ImageIcon icon = new ImageIcon(getClass().getResource(path));
         if (icon.getImageLoadStatus() == MediaTracker.COMPLETE) {
             this.backgroundImage = icon.getImage();
             repaint();
         }
     }
-    
+
+    public void setCellColor(Color newColor) {
+        this.cellColor = newColor;
+        repaint();
+    }
+
+    public void setBGColor(Color newColor) {
+        this.bgColor = newColor;
+        repaint();
+    }
+
     @Override
     public void refresh() {
         repaint();
@@ -88,7 +102,7 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
         if (backgroundImage != null) {
             g2.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
         } else {
-            g2.setColor(new Color(50, 0, 0));
+            g2.setColor(this.bgColor); 
             g2.fillRect(0, 0, getWidth(), getHeight());
         }
 
@@ -114,7 +128,8 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
             int endX = Math.min(game.getXmax(), (int) Math.ceil(bottomRight.x));
             int endY = Math.min(game.getYmax(), (int) Math.ceil(bottomRight.y));
 
-            g2.setColor(Color.decode("#dc3700"));
+            g2.setColor(this.cellColor);
+            g2.setBackground(this.bgColor);
             
             // On dessine directement avec les vraies coordonnées (1x1), le moteur graphique gère le zoom tout seul !
             for (int x = startX; x < endX; x++) {

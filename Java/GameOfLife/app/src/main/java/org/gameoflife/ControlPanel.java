@@ -12,13 +12,11 @@ public class ControlPanel extends JPanel implements Observer {
         this.game = game;
         this.ui = ui;
         this.setLayout(new FlowLayout(FlowLayout.CENTER, 15, 10));
-        this.setBackground(new Color(20, 20, 20)); // Fond sombre circuit
+        this.setBackground(new Color(20, 20, 20));
 
-        // Bouton PLAY/PAUSE
         playBtn = createStyledButton("START");
         playBtn.addActionListener(e -> game.modifyPause());
 
-        // Bouton NEXT LAP
         JButton nextBtn = createStyledButton("NEXT LAP >");
         nextBtn.addActionListener(e -> {
             if (game.isPaused()) {
@@ -28,19 +26,28 @@ public class ControlPanel extends JPanel implements Observer {
             }
         });
 
-        // Slider Vitesse
         JSlider slider = new JSlider(10, 1000, 100);
         slider.setBackground(new Color(20, 20, 20));
         slider.addChangeListener(e -> mainapp.setDelay(slider.getValue()));
 
-        // Sélecteur de Thèmes
-        String[] themes = {"Nordschleife", "Soviet", "Chornobyl"};
+        String[] themes = {"Classic", "Nordschleife", "Soviet", "Irradiated Soviet"};
         JComboBox<String> themeBox = new JComboBox<>(themes);
         themeBox.addActionListener(e -> {
             String selected = (String) themeBox.getSelectedItem();
-            if ("Nordschleife".equals(selected)) ui.updateTheme("/nurb.jpg");
-            else if ("Soviet".equals(selected)) ui.updateTheme("/soviet-flag.jpg");
-            else if ("Chornobyl".equals(selected)) ui.updateTheme("/chornobyl.jpg");
+            if ("Classic".equals(selected)) {
+                ui.updateTheme(null);
+                ui.setCellColor(Color.decode("#20202E"));
+                ui.setBGColor(Color.decode("#FAFAFA"));
+            } else if ("Nordschleife".equals(selected)) {
+                ui.updateTheme("/nurb.jpg");
+                ui.setCellColor(Color.decode("#DC3700"));
+            } else if ("Soviet".equals(selected)) {
+                ui.updateTheme("/soviet-flag.jpg");
+                ui.setCellColor(Color.YELLOW);
+            } else if ("Irradiated Soviet".equals(selected)) {
+                ui.updateTheme("/chornobyl.jpg");
+                ui.setCellColor(new Color(173, 255, 47));
+            }
         });
 
         this.add(playBtn);
