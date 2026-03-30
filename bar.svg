@@ -11,43 +11,43 @@
     </clipPath>
     <g clip-path="url(#round)">
       
-      <rect x="0" y="0" width="405.3547566957322" height="20" fill="#DA5B0B" stroke="#ffffff" stroke-width="0.5">
-        <title>Jupyter Notebook: 50.67% (997,271 bytes)</title>
+      <rect x="0" y="0" width="490.57052064066744" height="20" fill="#DA5B0B" stroke="#ffffff" stroke-width="0.5">
+        <title>Jupyter Notebook: 61.32% (997,271 bytes)</title>
       </rect>
-      <rect x="405.3547566957322" y="0" width="364.2600272127646" height="20" fill="#e34c26" stroke="#ffffff" stroke-width="0.5">
-        <title>HTML: 45.53% (896,168 bytes)</title>
+      <rect x="490.57052064066744" y="0" width="272.2674235567274" height="20" fill="#e34c26" stroke="#ffffff" stroke-width="0.5">
+        <title>HTML: 34.03% (553,487 bytes)</title>
       </rect>
-      <rect x="769.6147839084967" y="0" width="8.147164354733324" height="20" fill="#5e5086" stroke="#ffffff" stroke-width="0.5">
-        <title>Haskell: 1.02% (20,044 bytes)</title>
+      <rect x="762.8379441973948" y="0" width="9.859903191531226" height="20" fill="#5e5086" stroke="#ffffff" stroke-width="0.5">
+        <title>Haskell: 1.23% (20,044 bytes)</title>
       </rect>
-      <rect x="777.7619482632301" y="0" width="7.307003273051335" height="20" fill="#b07219" stroke="#ffffff" stroke-width="0.5">
-        <title>Java: 0.91% (17,977 bytes)</title>
+      <rect x="772.697847388926" y="0" width="9.232222265947817" height="20" fill="#b07219" stroke="#ffffff" stroke-width="0.5">
+        <title>Java: 1.15% (18,768 bytes)</title>
       </rect>
-      <rect x="785.0689515362815" y="0" width="4.817817755770011" height="20" fill="#3572A5" stroke="#ffffff" stroke-width="0.5">
-        <title>Python: 0.60% (11,853 bytes)</title>
+      <rect x="781.9300696548738" y="0" width="5.83064420920074" height="20" fill="#3572A5" stroke="#ffffff" stroke-width="0.5">
+        <title>Python: 0.73% (11,853 bytes)</title>
       </rect>
-      <rect x="789.8867692920514" y="0" width="4.388185311000846" height="20" fill="#336791" stroke="#ffffff" stroke-width="0.5">
-        <title>PLpgSQL: 0.55% (10,796 bytes)</title>
+      <rect x="787.7607138640745" y="0" width="5.310692219904765" height="20" fill="#336791" stroke="#ffffff" stroke-width="0.5">
+        <title>PLpgSQL: 0.66% (10,796 bytes)</title>
       </rect>
-      <rect x="794.2749546030523" y="0" width="2.179459951610461" height="20" fill="#701516" stroke="#ffffff" stroke-width="0.5">
-        <title>Ruby: 0.27% (5,362 bytes)</title>
+      <rect x="793.0714060839794" y="0" width="2.6376372437133524" height="20" fill="#701516" stroke="#ffffff" stroke-width="0.5">
+        <title>Ruby: 0.33% (5,362 bytes)</title>
       </rect>
-      <rect x="796.4544145546628" y="0" width="2" height="20" fill="#f1e05a" stroke="#ffffff" stroke-width="0.5">
-        <title>JavaScript: 0.17% (3,434 bytes)</title>
+      <rect x="795.7090433276927" y="0" width="2" height="20" fill="#f1e05a" stroke="#ffffff" stroke-width="0.5">
+        <title>JavaScript: 0.21% (3,434 bytes)</title>
       </rect>
-      <rect x="798.4544145546628" y="0" width="2" height="20" fill="#3178c6" stroke="#ffffff" stroke-width="0.5">
-        <title>TypeScript: 0.11% (2,143 bytes)</title>
+      <rect x="797.7090433276927" y="0" width="2" height="20" fill="#3178c6" stroke="#ffffff" stroke-width="0.5">
+        <title>TypeScript: 0.13% (2,143 bytes)</title>
       </rect>
-      <rect x="800.4544145546628" y="0" width="2" height="20" fill="#cccccc" stroke="#ffffff" stroke-width="0.5">
-        <title>Mermaid: 0.10% (1,926 bytes)</title>
+      <rect x="799.7090433276927" y="0" width="2" height="20" fill="#cccccc" stroke="#ffffff" stroke-width="0.5">
+        <title>Mermaid: 0.12% (1,926 bytes)</title>
       </rect>
-      <rect x="802.4544145546628" y="0" width="2" height="20" fill="#000080" stroke="#ffffff" stroke-width="0.5">
-        <title>Lua: 0.05% (939 bytes)</title>
+      <rect x="801.7090433276927" y="0" width="2" height="20" fill="#000080" stroke="#ffffff" stroke-width="0.5">
+        <title>Lua: 0.06% (939 bytes)</title>
       </rect>
-      <rect x="804.4544145546628" y="0" width="2" height="20" fill="#dea584" stroke="#ffffff" stroke-width="0.5">
+      <rect x="803.7090433276927" y="0" width="2" height="20" fill="#dea584" stroke="#ffffff" stroke-width="0.5">
         <title>Rust: 0.01% (181 bytes)</title>
       </rect>
-      <rect x="806.4544145546628" y="0" width="2" height="20" fill="#555555" stroke="#ffffff" stroke-width="0.5">
+      <rect x="805.7090433276927" y="0" width="2" height="20" fill="#555555" stroke="#ffffff" stroke-width="0.5">
         <title>C: 0.01% (100 bytes)</title>
       </rect>
       <rect width="800" height="20" fill="url(#shine)" pointer-events="none" />
