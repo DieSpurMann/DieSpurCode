@@ -18,3 +18,6 @@
 
 ### 4.3. Slider de la vitesse:
 <p>Slider pour changer la vitesse de génération de la plus grande vitesse (à gauche) vers la plus petite (à droite)</p>
+
+### 4.4. Gestion de thème:
+<p>Par défault, le thème classique. On peut utiliser une liste déroulante pour changer le thème (Thèmes à ton humoristique)</p>
