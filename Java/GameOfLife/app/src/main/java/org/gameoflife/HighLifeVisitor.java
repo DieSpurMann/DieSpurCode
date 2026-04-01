@@ -1,8 +1,8 @@
 package org.gameoflife;
 
-public class ClassicVisitor extends Visitor {
+public class HighLifeVisitor extends Visitor {
 
-    public ClassicVisitor(GameOfLife game) {
+    public HighLifeVisitor(GameOfLife game) {
         super(game);
     }
 
@@ -16,8 +16,8 @@ public class ClassicVisitor extends Visitor {
 
     @Override
     public void visitDeadCell(Cell cell) {
-        int neighbors = cell.getNumberOfAliveNeighbours(game);
-        if (neighbors == 3) {
+        int neighbors = cell.getNumberOfAliveNeighbours(game);        
+        if (neighbors == 3 || neighbors == 6) {
             game.addCommands(new LiveCommand(cell));
         }
     }

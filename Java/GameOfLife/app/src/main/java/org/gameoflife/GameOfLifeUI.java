@@ -27,7 +27,6 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
     private GameOfLife game;
     private Image backgroundImage;
 
-    // Variables de navigation (beaucoup plus simples !)
     private double zoom = 3.0;
     private double panX = 0.0;
     private double panY = 0.0;
@@ -38,24 +37,16 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
     public GameOfLifeUI(GameOfLife game) {
         this.game = game;
         game.registerObserver(this);
-        
-        /*ImageIcon icon = new ImageIcon(getClass().getResource("/nurb.jpg"));
-        if (icon.getImageLoadStatus() == MediaTracker.COMPLETE) {
-            this.backgroundImage = icon.getImage();
-        }*/
-        this.setCellColor(Color.decode("#20202E")); // Vert fluo pour l'Enfer Vert
+        this.setCellColor(Color.decode("#20202E"));
         this.setBGColor(Color.decode("#FAFAFA"));
         this.addMouseWheelListener(this);
         this.addMouseMotionListener(this);
         this.addMouseListener(this);
-        // On récupère l'InputMap du composant principal (par exemple le JPanel de la grille)
         InputMap im = this.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW);
         ActionMap am = this.getActionMap();
 
-        // On lie la touche "SPACE" à un identifiant textuel
         im.put(KeyStroke.getKeyStroke("SPACE"), "pauseAction");
 
-        // On définit l'action correspondant à cet identifiant
         am.put("pauseAction", new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -96,9 +87,7 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        Graphics2D g2 = (Graphics2D) g.create(); // On crée une copie pour ne pas altérer le Graphics original
-
-        // 1. Dessin du fond d'écran (fixe)
+        Graphics2D g2 = (Graphics2D) g.create(); 
         if (backgroundImage != null) {
             g2.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
         } else {
@@ -106,15 +95,10 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
             g2.fillRect(0, 0, getWidth(), getHeight());
         }
 
-        // 2. Création de la "Caméra" virtuelle
         AffineTransform camera = new AffineTransform();
-        camera.translate(panX, panY); // Déplacement
-        camera.scale(zoom, zoom);     // Zoom
-        g2.transform(camera);         // Application de la caméra au pinceau
-
-        // 3. Dessin ultra-rapide des cellules
-        // On demande à Java de nous donner les coordonnées de l'écran converties dans le monde du jeu
-        // pour ne dessiner QUE ce qui est visible à l'écran.
+        camera.translate(panX, panY); 
+        camera.scale(zoom, zoom);     
+        g2.transform(camera);
         try {
             AffineTransform inverse = camera.createInverse();
             Point2D.Double topLeft = new Point2D.Double(0, 0);
@@ -131,7 +115,6 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
             g2.setColor(this.cellColor);
             g2.setBackground(this.bgColor);
             
-            // On dessine directement avec les vraies coordonnées (1x1), le moteur graphique gère le zoom tout seul !
             for (int x = startX; x < endX; x++) {
                 for (int y = startY; y < endY; y++) {
                     Cell cell = game.getCell(x, y);
@@ -144,7 +127,7 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
             e.printStackTrace();
         }
 
-        g2.dispose(); // Libération des ressources graphiques
+        g2.dispose();
     }
 
     private void toggleSimulation() {
@@ -156,14 +139,12 @@ public class GameOfLifeUI extends JPanel implements Observer, MouseWheelListener
     public void mouseWheelMoved(MouseWheelEvent e) {
         double oldZoom = zoom;
         if (e.getWheelRotation() < 0) {
-            zoom *= 1.1; // Zoom in
+            zoom *= 1.1;
         } else {
-            zoom /= 1.1; // Zoom out
+            zoom /= 1.1;
         }
-        // Limites du zoom
         zoom = Math.max(0.1, Math.min(zoom, 100.0));
 
-        // Mathématiques pour zoomer vers le pointeur de la souris (et non vers le coin en haut à gauche)
         double scaleChange = zoom / oldZoom;
         panX = e.getX() - scaleChange * (e.getX() - panX);
         panY = e.getY() - scaleChange * (e.getY() - panY);

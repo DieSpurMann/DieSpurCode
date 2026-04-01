@@ -43,6 +43,12 @@ public class GameOfLife implements Subject {
         commands.clear();
     }
 
+    public void resetBoard() {
+        this.initializeBoard();
+        this.notifyObservers();
+        System.out.println("Grille réinitialisée !");
+    }
+
     public void initializeBoard() {
         for (int x = 0; x < this.maxX; x++) {
             for (int y = 0; y < this.maxY; y++) {
@@ -57,7 +63,7 @@ public class GameOfLife implements Subject {
 
     public Cell getCell(int x, int y) {
         if (x < 0 || x >= this.maxX || y < 0 || y >= this.maxY) {
-            return null; // Out of bounds
+            return null;
         }
         return this.board[x][y];
     }
@@ -65,6 +71,10 @@ public class GameOfLife implements Subject {
     public void modifyPause() {
         this.pause = !this.pause;
         System.out.println(this.pause);
+    }
+
+    public void setVisitor(Visitor visitor) {
+        this.visitor = visitor;
     }
 
     @Override

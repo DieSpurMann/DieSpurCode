@@ -30,6 +30,14 @@ java {
     }
 }
 
+tasks.jar {
+    manifest {
+        attributes(
+            "Main-Class" to "org.gameoflife.Maine"
+        )
+    }
+}
+
 application {
     // Define the main class for the application.
     mainClass = "org.gameoflife.Maine"

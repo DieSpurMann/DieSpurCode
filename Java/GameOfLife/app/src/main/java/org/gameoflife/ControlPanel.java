@@ -26,6 +26,11 @@ public class ControlPanel extends JPanel implements Observer {
             }
         });
 
+        JButton resetButton = new JButton("RESET");        
+        resetButton.addActionListener(e -> {
+            game.resetBoard(); 
+        });
+
         JSlider slider = new JSlider(10, 1000, 100);
         slider.setBackground(new Color(20, 20, 20));
         slider.addChangeListener(e -> mainapp.setDelay(slider.getValue()));
@@ -50,12 +55,32 @@ public class ControlPanel extends JPanel implements Observer {
             }
         });
 
+        String[] rulesOptions = {"Classic", "High Life", "Day & Night"}; 
+        JComboBox<String> rulesSelector = new JComboBox<>(rulesOptions);
+        
+        rulesSelector.addActionListener(e -> {
+            String selectedRule = (String) rulesSelector.getSelectedItem();
+            if ("Classic".equals(selectedRule)) {
+                game.setVisitor(new ClassicVisitor(game));
+                System.out.println("Mode: Classic");
+            } else if ("High Life".equals(selectedRule)) {
+                game.setVisitor(new HighLifeVisitor(game));
+                System.out.println("Mode : HighLife");
+            } else if ("Day & Night".equals(selectedRule)) {
+                game.setVisitor(new DayNightVisitor(game));
+                System.out.println("Mode : Day & Night");
+            }
+        });
+
         this.add(playBtn);
         this.add(nextBtn);
+        this.add(resetButton);
         this.add(new JLabel("<html><font color='white'>SPEED:</font></html>"));
         this.add(slider);
         this.add(new JLabel("<html><font color='white'>THEME:</font></html>"));
         this.add(themeBox);
+        this.add(new JLabel("<html><font color='white'>RULES:</font></html>"));
+        this.add(rulesSelector);
     }
 
     private JButton createStyledButton(String text) {
